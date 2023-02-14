@@ -54,36 +54,39 @@
     <p>You can also look at my <a href="https://scholar.google.com/citations?user=AqGa3-MAAAAJ&amp;hl=en" target="_blank">Google Scholar profile</a>.</p>
 
 <h2 class="bibliography">2022</h2>
-<ol class="bibliography"><li><div class="text-justify"><span id="hossain-affirmative-interpretations">Md Mosharaf Hossain and Eduardo Blanco. 2022. Leveraging Affirmative Interpretations from Negation Improves Natural Language Understanding. In <i>Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP)</i>. Association for Computational Linguistics. Accepted, To Appear.</span></div>
-<button class="button" onclick="toggleBibtexhossain_affirmative_interpretations()">bibtex</button>
+<ol class="bibliography"><li><div class="text-justify"><span id="hossain-blanco-2022-leveraging">Md Mosharaf Hossain and Eduardo Blanco. 2022. Leveraging Affirmative Interpretations from Negation Improves Natural Language Understanding. In <i>Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing</i>, pages 5833–5847, Abu Dhabi, United Arab Emirates. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexhossain_blanco_2022_leveraging()">bibtex</button>
 
 
+  
+      <a href="https://aclanthology.org/2022.emnlp-main.393" target="_blank"><input class="button" type="button" value="link" /></a>
   
 
 
 
-    <a href="https://arxiv.org/abs/2210.14486" target="_blank"><input class="button_preprint" type="button" value="preprint" /></a>
 
 
 
-
-<div id="ahossain-affirmative-interpretations" style="display: none;">
-<pre>@inproceedings{hossain-affirmative-interpretations,
+<div id="ahossain-blanco-2022-leveraging" style="display: none;">
+<pre>@inproceedings{hossain-blanco-2022-leveraging,
   title = {Leveraging Affirmative Interpretations from Negation Improves Natural Language Understanding},
   author = {Hossain, Md Mosharaf and Blanco, Eduardo},
-  booktitle = {Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
-  year = {2022},
+  booktitle = {Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing},
   month = dec,
-  publisher = {Association for Computational Linguistics. Accepted, To Appear},
-  preprint = {https://arxiv.org/abs/2210.14486},
+  year = {2022},
+  address = {Abu Dhabi, United Arab Emirates},
+  publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2022.emnlp-main.393},
+  pages = {5833--5847},
+  abstract = {Negation poses a challenge in many natural language understanding tasks. Inspired by the fact that understanding a negated statement often requires humans to infer affirmative interpretations, in this paper we show that doing so benefits models for three natural language understanding tasks. We present an automated procedure to collect pairs of sentences with negation and their affirmative interpretations, resulting in over 150,000 pairs. Experimental results show that leveraging these pairs helps (a) T5 generate affirmative interpretations from negations in a previous benchmark, and (b) a RoBERTa-based classifier solve the task of natural language inference. We also leverage our pairs to build a plug-and-play neural generator that given a negated statement generates an affirmative interpretation. Then, we incorporate the pretrained generator into a RoBERTa-based classifier for sentiment analysis and show that doing so improves the results. Crucially, our proposal does not require any manual effort.},
   month_numeric = {12}
 }
 </pre>
 </div>
 
 <script>
-function toggleBibtexhossain_affirmative_interpretations(parameter) {
-    var x= document.getElementById('ahossain-affirmative-interpretations');
+function toggleBibtexhossain_blanco_2022_leveraging(parameter) {
+    var x= document.getElementById('ahossain-blanco-2022-leveraging');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
