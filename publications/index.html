@@ -53,35 +53,76 @@
   <div class="post-content">
     <p>You can also look at my <a href="https://scholar.google.com/citations?user=AqGa3-MAAAAJ&amp;hl=en" target="_blank">Google Scholar profile</a>.</p>
 
-<h2 class="bibliography">2023</h2>
-<ol class="bibliography"><li><div class="text-justify"><span id="emnlp2023_xinchen">Xinchen Yu, Ashley Zhao, Eduardo Blanco, and Lingzi Hong. 2023. A Fine-Grained Taxonomy of Replies to Hate Speech. In <i>Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing</i>, Singapore. Association for Computational Linguistics. Accepted, To Appear.</span></div>
-<button class="button" onclick="toggleBibtexemnlp2023_xinchen()">bibtex</button>
+<h2 class="bibliography">2024</h2>
+<ol class="bibliography"><li><div class="text-justify"><span id="icwsm_xinchen">Xinchen Yu, Eduardo Blanco, and Lingzi Hong. 2024. Hate Cannot Drive out Hate: Forecasting Conversation Incivility following Replies to Hate Speech. <i>Proceedings of the International AAAI Conference on Web and Social Media</i>. Accepted, To Appear.</span></div>
+<button class="button" onclick="toggleBibtexicwsm_xinchen()">bibtex</button>
 
 
   
 
 
 
+    <a href="https://arxiv.org/abs/2312.04804" target="_blank"><input class="button_preprint" type="button" value="preprint" /></a>
 
 
 
-<div id="aemnlp2023_xinchen" style="display: none;">
-<pre>@inproceedings{emnlp2023_xinchen,
-  title = {A Fine-Grained Taxonomy of Replies to Hate Speech},
-  author = {Yu, Xinchen and Zhao, Ashley and Blanco, Eduardo and Hong, Lingzi},
-  booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+
+<div id="aicwsm_xinchen" style="display: none;">
+<pre>@article{icwsm_xinchen,
+  title = {Hate Cannot Drive out Hate: Forecasting Conversation Incivility following Replies to Hate Speech},
+  preprint = {https://arxiv.org/abs/2312.04804},
+  journal = {Proceedings of the International AAAI Conference on Web and Social Media},
+  author = {Yu, Xinchen and Blanco, Eduardo and Hong, Lingzi},
+  year = {2024}
+}
+</pre>
+</div>
+
+<script>
+function toggleBibtexicwsm_xinchen(parameter) {
+    var x= document.getElementById('aicwsm_xinchen');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li></ol>
+<h2 class="bibliography">2023</h2>
+<ol class="bibliography"><li><div class="text-justify"><span id="wang-etal-2023-interpreting">Zijie Wang, Md Hossain, Shivam Mathur, Terry Melo, Kadir Ozler, Keun Park, Jacob Quintero, MohammadHossein Rezaei, Shreya Shakya, Md Uddin, and Eduardo Blanco. 2023. Interpreting Indirect Answers to Yes-No Questions in Multiple Languages. In <i>Findings of the Association for Computational Linguistics: EMNLP 2023</i>, pages 2210–2227, Singapore. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexwang_etal_2023_interpreting()">bibtex</button>
+
+
+    <a href="http://doi.org/10.18653/v1/2023.findings-emnlp.146" target="_blank"><input class="button" type="button" value="link" /></a>
+
+
+
+
+
+
+<div id="awang-etal-2023-interpreting" style="display: none;">
+<pre>@inproceedings{wang-etal-2023-interpreting,
+  title = {Interpreting Indirect Answers to Yes-No Questions in Multiple Languages},
+  author = {Wang, Zijie and Hossain, Md and Mathur, Shivam and Melo, Terry and Ozler, Kadir and Park, Keun and Quintero, Jacob and Rezaei, MohammadHossein and Shakya, Shreya and Uddin, Md and Blanco, Eduardo},
+  editor = {Bouamor, Houda and Pino, Juan and Bali, Kalika},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2023},
   month = dec,
   year = {2023},
   address = {Singapore},
   publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2023.findings-emnlp.146},
+  doi = {10.18653/v1/2023.findings-emnlp.146},
+  pages = {2210--2227},
+  abstract = {Yes-no questions expect a yes or no for an answer, but people often skip polar keywords. Instead, they answer with long explanations that must be interpreted. In this paper, we focus on this challenging problem and release new benchmarks in eight languages. We present a distant supervision approach to collect training data, and demonstrate that direct answers (i.e., with polar keywords) are useful to train models to interpret indirect answers (i.e., without polar keywords). We show that monolingual fine-tuning is beneficial if training data can be obtained via distant supervision for the language of interest (5 languages). Additionally, we show that cross-lingual fine-tuning is always beneficial (8 languages).},
   month_numeric = {12}
 }
 </pre>
 </div>
 
 <script>
-function toggleBibtexemnlp2023_xinchen(parameter) {
-    var x= document.getElementById('aemnlp2023_xinchen');
+function toggleBibtexwang_etal_2023_interpreting(parameter) {
+    var x= document.getElementById('awang-etal-2023-interpreting');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -90,34 +131,39 @@ function toggleBibtexemnlp2023_xinchen(parameter) {
 }
 </script>
 </li>
-<li><div class="text-justify"><span id="emnlp2023_abdullah">Abdullah Albanyan, Ahmed Hassan, and Eduardo Blanco. 2023. Finding Authentic Counterhate Arguments: A Case Study with Public Figures. In <i>Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing</i>, Singapore. Association for Computational Linguistics. Accepted, To Appear.</span></div>
-<button class="button" onclick="toggleBibtexemnlp2023_abdullah()">bibtex</button>
+<li><div class="text-justify"><span id="albanyan-etal-2023-finding">Abdullah Albanyan, Ahmed Hassan, and Eduardo Blanco. 2023. Finding Authentic Counterhate Arguments: A Case Study with Public Figures. In <i>Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing</i>, pages 13862–13876, Singapore. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexalbanyan_etal_2023_finding()">bibtex</button>
 
 
-  
-
-
-
+    <a href="http://doi.org/10.18653/v1/2023.emnlp-main.855" target="_blank"><input class="button" type="button" value="link" /></a>
 
 
 
-<div id="aemnlp2023_abdullah" style="display: none;">
-<pre>@inproceedings{emnlp2023_abdullah,
+
+
+
+<div id="aalbanyan-etal-2023-finding" style="display: none;">
+<pre>@inproceedings{albanyan-etal-2023-finding,
   title = {Finding Authentic Counterhate Arguments: A Case Study with Public Figures},
   author = {Albanyan, Abdullah and Hassan, Ahmed and Blanco, Eduardo},
+  editor = {Bouamor, Houda and Pino, Juan and Bali, Kalika},
   booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
   month = dec,
   year = {2023},
   address = {Singapore},
   publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2023.emnlp-main.855},
+  doi = {10.18653/v1/2023.emnlp-main.855},
+  pages = {13862--13876},
+  abstract = {We explore authentic counterhate arguments for online hateful content toward individuals. Previous efforts are limited to counterhate to fight against hateful content toward groups. Thus, we present a corpus of 54,816 hateful tweet-paragraph pairs, where the paragraphs are candidate counterhate arguments. The counterhate arguments are retrieved from 2,500 online articles from multiple sources. We propose a methodology that assures the authenticity of the counter argument and its specificity to the individual of interest. We show that finding arguments in online articles is an efficient alternative to counterhate generation approaches that may hallucinate unsupported arguments. We also present linguistic insights on the language used in counterhate arguments. Experimental results show promising results. It is more challenging, however, to identify counterhate arguments for hateful content toward individuals not included in the training set.},
   month_numeric = {12}
 }
 </pre>
 </div>
 
 <script>
-function toggleBibtexemnlp2023_abdullah(parameter) {
-    var x= document.getElementById('aemnlp2023_abdullah');
+function toggleBibtexalbanyan_etal_2023_finding(parameter) {
+    var x= document.getElementById('aalbanyan-etal-2023-finding');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -126,106 +172,39 @@ function toggleBibtexemnlp2023_abdullah(parameter) {
 }
 </script>
 </li>
-<li><div class="text-justify"><span id="findings_emlp2023_zijie">Zijie Wang, Md Mosharaf Hossain, Shivam Mathur, Terry Cruz Melo, Kadir Bulut Ozler, Keun Hee Park, Jacob Quintero, MohammadHossein Rezaei, Shreya Nupur Shakya, Md Nayem Uddin, and Eduardo Blanco. 2023. Interpreting Indirect Answers to Yes-No Questions in Multiple Languages. In <i>Findings of the Association for Computational Linguistics: EMNLP 2023</i>, Singapore. Association for Computational Linguistics. Accepted, To Appear.</span></div>
-<button class="button" onclick="toggleBibtexfindings_emlp2023_zijie()">bibtex</button>
+<li><div class="text-justify"><span id="cooper-etal-2023-hiding">Portia Cooper, Mihai Surdeanu, and Eduardo Blanco. 2023. Hiding in Plain Sight: Tweets with Hate Speech Masked by Homoglyphs. In <i>Findings of the Association for Computational Linguistics: EMNLP 2023</i>, pages 2922–2929, Singapore. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexcooper_etal_2023_hiding()">bibtex</button>
 
 
-  
-
-
-
-
-
-
-<div id="afindings_emlp2023_zijie" style="display: none;">
-<pre>@inproceedings{findings_emlp2023_zijie,
-  title = {Interpreting Indirect Answers to Yes-No Questions in Multiple Languages},
-  author = {Wang, Zijie and Hossain, Md Mosharaf and Mathur, Shivam and Melo, Terry Cruz and Ozler, Kadir Bulut and Park, Keun Hee and Quintero, Jacob and Rezaei, MohammadHossein and Shakya, Shreya Nupur and Uddin, Md Nayem and Blanco, Eduardo},
-  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2023},
-  month = dec,
-  year = {2023},
-  address = {Singapore},
-  publisher = {Association for Computational Linguistics},
-  month_numeric = {12}
-}
-</pre>
-</div>
-
-<script>
-function toggleBibtexfindings_emlp2023_zijie(parameter) {
-    var x= document.getElementById('afindings_emlp2023_zijie');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
-</li>
-<li><div class="text-justify"><span id="findings_emlp2023_shivam">Shivam Mathur, Keun Hee Park, Dhivya Chinnappa, Saketh Kotamraju, and Eduardo Blanco. 2023. Interpreting Answers to Yes-No Questions in User-Generated Content. In <i>Findings of the Association for Computational Linguistics: EMNLP 2023</i>, Singapore. Association for Computational Linguistics. Accepted, To Appear.</span></div>
-<button class="button" onclick="toggleBibtexfindings_emlp2023_shivam()">bibtex</button>
-
-
-  
+    <a href="http://doi.org/10.18653/v1/2023.findings-emnlp.192" target="_blank"><input class="button" type="button" value="link" /></a>
 
 
 
 
 
 
-<div id="afindings_emlp2023_shivam" style="display: none;">
-<pre>@inproceedings{findings_emlp2023_shivam,
-  title = {Interpreting Answers to Yes-No Questions in User-Generated Content},
-  author = {Mathur, Shivam and Park, Keun Hee and Chinnappa, Dhivya and Kotamraju, Saketh and Blanco, Eduardo},
-  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2023},
-  month = dec,
-  year = {2023},
-  address = {Singapore},
-  publisher = {Association for Computational Linguistics},
-  month_numeric = {12}
-}
-</pre>
-</div>
-
-<script>
-function toggleBibtexfindings_emlp2023_shivam(parameter) {
-    var x= document.getElementById('afindings_emlp2023_shivam');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
-</li>
-<li><div class="text-justify"><span id="findings_emlp2023_portia">Portia Cooper, Mihai Surdeanu, and Eduardo Blanco. 2023. Hiding in Plain Sight: Tweets with Hate Speech Masked by Homoglyphs. In <i>Findings of the Association for Computational Linguistics: EMNLP 2023</i>, Singapore. Association for Computational Linguistics. Accepted, To Appear.</span></div>
-<button class="button" onclick="toggleBibtexfindings_emlp2023_portia()">bibtex</button>
-
-
-  
-
-
-
-
-
-
-<div id="afindings_emlp2023_portia" style="display: none;">
-<pre>@inproceedings{findings_emlp2023_portia,
+<div id="acooper-etal-2023-hiding" style="display: none;">
+<pre>@inproceedings{cooper-etal-2023-hiding,
   title = {Hiding in Plain Sight: Tweets with Hate Speech Masked by Homoglyphs},
   author = {Cooper, Portia and Surdeanu, Mihai and Blanco, Eduardo},
+  editor = {Bouamor, Houda and Pino, Juan and Bali, Kalika},
   booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2023},
   month = dec,
   year = {2023},
   address = {Singapore},
   publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2023.findings-emnlp.192},
+  doi = {10.18653/v1/2023.findings-emnlp.192},
+  pages = {2922--2929},
+  abstract = {To avoid detection by current NLP monitoring applications, progenitors of hate speech often replace one or more letters in offensive words with homoglyphs, visually similar Unicode characters. Harvesting real-world hate speech containing homoglyphs is challenging due to the vast replacement possibilities. We developed a character substitution scraping method and assembled the Offensive Tweets with Homoglyphs (OTH) Dataset (N=90,788) with more than 1.5 million occurrences of 1,281 non-Latin characters (emojis excluded). In an annotated sample (n=700), 40.14{\%} of the tweets were found to contain hate speech. We assessed the performance of seven transformer-based hate speech detection models and found that they performed poorly in a zero-shot setting (F1 scores between 0.04 and 0.52) but normalizing the data dramatically improved detection (F1 scores between 0.59 and 0.71). Training the models using the annotated data further boosted performance (highest micro-averaged F1 score=0.88, using five-fold cross validation). This study indicates that a dataset containing homoglyphs known and unknown to the scraping script can be collected, and that neural models can be trained to recognize camouflaged real-world hate speech.},
   month_numeric = {12}
 }
 </pre>
 </div>
 
 <script>
-function toggleBibtexfindings_emlp2023_portia(parameter) {
-    var x= document.getElementById('afindings_emlp2023_portia');
+function toggleBibtexcooper_etal_2023_hiding(parameter) {
+    var x= document.getElementById('acooper-etal-2023-hiding');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -234,34 +213,121 @@ function toggleBibtexfindings_emlp2023_portia(parameter) {
 }
 </script>
 </li>
-<li><div class="text-justify"><span id="findings_emlp2023_javad">Javad Rafiei Asl, Eduardo Blanco, and Daniel Takabi. 2023. RobustEmbed: Robust Sentence Embeddings Using Self-Supervised Contrastive Pre-Training. In <i>Findings of the Association for Computational Linguistics: EMNLP 2023</i>, Singapore. Association for Computational Linguistics. Accepted, To Appear.</span></div>
-<button class="button" onclick="toggleBibtexfindings_emlp2023_javad()">bibtex</button>
+<li><div class="text-justify"><span id="asl-etal-2023-robustembed">Javad Asl, Eduardo Blanco, and Daniel Takabi. 2023. RobustEmbed: Robust Sentence Embeddings Using Self-Supervised Contrastive Pre-Training. In <i>Findings of the Association for Computational Linguistics: EMNLP 2023</i>, pages 4587–4603, Singapore. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexasl_etal_2023_robustembed()">bibtex</button>
 
 
-  
-
-
-
+    <a href="http://doi.org/10.18653/v1/2023.findings-emnlp.305" target="_blank"><input class="button" type="button" value="link" /></a>
 
 
 
-<div id="afindings_emlp2023_javad" style="display: none;">
-<pre>@inproceedings{findings_emlp2023_javad,
-  title = {RobustEmbed: Robust Sentence Embeddings Using Self-Supervised Contrastive Pre-Training},
-  author = {Asl, Javad Rafiei and Blanco, Eduardo and Takabi, Daniel},
+
+
+
+<div id="aasl-etal-2023-robustembed" style="display: none;">
+<pre>@inproceedings{asl-etal-2023-robustembed,
+  title = {{R}obust{E}mbed: Robust Sentence Embeddings Using Self-Supervised Contrastive Pre-Training},
+  author = {Asl, Javad and Blanco, Eduardo and Takabi, Daniel},
+  editor = {Bouamor, Houda and Pino, Juan and Bali, Kalika},
   booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2023},
   month = dec,
   year = {2023},
   address = {Singapore},
   publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2023.findings-emnlp.305},
+  doi = {10.18653/v1/2023.findings-emnlp.305},
+  pages = {4587--4603},
+  abstract = {Pre-trained language models (PLMs) have demonstrated their exceptional performance across a wide range of natural language processing tasks. The utilization of PLM-based sentence embeddings enables the generation of contextual representations that capture rich semantic information. However, despite their success with unseen samples, current PLM-based representations suffer from poor robustness in adversarial scenarios. In this paper, we propose RobustEmbed, a self-supervised sentence embedding framework that enhances both generalization and robustness in various text representation tasks and against diverse adversarial attacks. By generating high-risk adversarial perturbations to promote higher invariance in the embedding space and leveraging the perturbation within a novel contrastive objective approach, RobustEmbed effectively learns high-quality sentence embeddings. Our extensive experiments validate the superiority of RobustEmbed over previous state-of-the-art self-supervised representations in adversarial settings, while also showcasing relative improvements in seven semantic textual similarity (STS) tasks and six transfer tasks. Specifically, our framework achieves a significant reduction in attack success rate from 75.51{\%} to 39.62{\%} for the BERTAttack attack technique, along with enhancements of 1.20{\%} and 0.40{\%} in STS tasks and transfer tasks, respectively.},
   month_numeric = {12}
 }
 </pre>
 </div>
 
 <script>
-function toggleBibtexfindings_emlp2023_javad(parameter) {
-    var x= document.getElementById('afindings_emlp2023_javad');
+function toggleBibtexasl_etal_2023_robustembed(parameter) {
+    var x= document.getElementById('aasl-etal-2023-robustembed');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><div class="text-justify"><span id="mathur-etal-2023-interpreting">Shivam Mathur, Keun Park, Dhivya Chinnappa, Saketh Kotamraju, and Eduardo Blanco. 2023. Interpreting Answers to Yes-No Questions in User-Generated Content. In <i>Findings of the Association for Computational Linguistics: EMNLP 2023</i>, pages 14137–14161, Singapore. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexmathur_etal_2023_interpreting()">bibtex</button>
+
+
+    <a href="http://doi.org/10.18653/v1/2023.findings-emnlp.942" target="_blank"><input class="button" type="button" value="link" /></a>
+
+
+
+
+
+
+<div id="amathur-etal-2023-interpreting" style="display: none;">
+<pre>@inproceedings{mathur-etal-2023-interpreting,
+  title = {Interpreting Answers to Yes-No Questions in User-Generated Content},
+  author = {Mathur, Shivam and Park, Keun and Chinnappa, Dhivya and Kotamraju, Saketh and Blanco, Eduardo},
+  editor = {Bouamor, Houda and Pino, Juan and Bali, Kalika},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2023},
+  month = dec,
+  year = {2023},
+  address = {Singapore},
+  publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2023.findings-emnlp.942},
+  doi = {10.18653/v1/2023.findings-emnlp.942},
+  pages = {14137--14161},
+  abstract = {Interpreting answers to yes-no questions in social media is difficult. Yes and no keywords are uncommon, and the few answers that include them are rarely to be interpreted what the keywords suggest. In this paper, we present a new corpus of 4,442 yes-no question-answer pairs from Twitter. We discuss linguistic characteristics of answers whose interpretation is yes or no, as well as answers whose interpretation is unknown. We show that large language models are far from solving this problem, even after fine-tuning and blending other corpora for the same problem but outside social media.},
+  month_numeric = {12}
+}
+</pre>
+</div>
+
+<script>
+function toggleBibtexmathur_etal_2023_interpreting(parameter) {
+    var x= document.getElementById('amathur-etal-2023-interpreting');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><div class="text-justify"><span id="yu-etal-2023-fine">Xinchen Yu, Ashley Zhao, Eduardo Blanco, and Lingzi Hong. 2023. A Fine-Grained Taxonomy of Replies to Hate Speech. In <i>Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing</i>, pages 7275–7289, Singapore. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexyu_etal_2023_fine()">bibtex</button>
+
+
+    <a href="http://doi.org/10.18653/v1/2023.emnlp-main.450" target="_blank"><input class="button" type="button" value="link" /></a>
+
+
+
+
+
+
+<div id="ayu-etal-2023-fine" style="display: none;">
+<pre>@inproceedings{yu-etal-2023-fine,
+  title = {A Fine-Grained Taxonomy of Replies to Hate Speech},
+  author = {Yu, Xinchen and Zhao, Ashley and Blanco, Eduardo and Hong, Lingzi},
+  editor = {Bouamor, Houda and Pino, Juan and Bali, Kalika},
+  booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  month = dec,
+  year = {2023},
+  address = {Singapore},
+  publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2023.emnlp-main.450},
+  doi = {10.18653/v1/2023.emnlp-main.450},
+  pages = {7275--7289},
+  abstract = {Countering rather than censoring hate speech has emerged as a promising strategy to address hatred. There are many types of counterspeech in user-generated content: addressing the hateful content or its author, generic requests, well-reasoned counter arguments, insults, etc. The effectiveness of counterspeech, which we define as subsequent incivility, depends on these types. In this paper, we present a theoretically grounded taxonomy of replies to hate speech and a new corpus. We work with real, user-generated hate speech and all the replies it elicits rather than replies generated by a third party. Our analyses provide insights into the content real users reply with as well as which replies are empirically most effective. We also experiment with models to characterize the replies to hate speech, thereby opening the door to estimating whether a reply to hate speech will result in further incivility.},
+  month_numeric = {12}
+}
+</pre>
+</div>
+
+<script>
+function toggleBibtexyu_etal_2023_fine(parameter) {
+    var x= document.getElementById('ayu-etal-2023-fine');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -714,146 +780,33 @@ function toggleBibtexkotamraju_blanco_2021_written_justifications(parameter) {
 }
 </script>
 </li>
-<li><div class="text-justify"><span id="morante_blanco_2021">Roser Morante and Eduardo Blanco. 2021. Recent advances in processing negation. <i>Natural Language Engineering</i>, 27(2):121–130. Cambridge University Press.</span></div>
-<button class="button" onclick="toggleBibtexmorante_blanco_2021()">bibtex</button>
+<li><div class="text-justify"><span id="chinnappa_blanco_2021">Dhivya Chinnappa and Eduardo Blanco. 2021. Extracting possessions from text: Experiments and error analysis. <i>Natural Language Engineering</i>:1–22. Cambridge University Press.</span></div>
+<button class="button" onclick="toggleBibtexchinnappa_blanco_2021()">bibtex</button>
 
 
-    <a href="http://doi.org/10.1017/S1351324920000534" target="_blank"><input class="button" type="button" value="link" /></a>
-
-
-
+    <a href="http://doi.org/10.1017/S1351324921000012" target="_blank"><input class="button" type="button" value="link" /></a>
 
 
 
-<div id="amorante_blanco_2021" style="display: none;">
-<pre>@article{morante_blanco_2021,
-  title = {Recent advances in processing negation},
-  volume = {27},
-  doi = {10.1017/S1351324920000534},
-  number = {2},
+
+
+
+<div id="achinnappa_blanco_2021" style="display: none;">
+<pre>@article{chinnappa_blanco_2021,
+  title = {Extracting possessions from text: Experiments and error analysis},
+  doi = {10.1017/S1351324921000012},
   journal = {Natural Language Engineering},
   publisher = {Cambridge University Press},
-  author = {Morante, Roser and Blanco, Eduardo},
+  author = {Chinnappa, Dhivya and Blanco, Eduardo},
   year = {2021},
-  pages = {121–130}
+  pages = {1–22}
 }
 </pre>
 </div>
 
 <script>
-function toggleBibtexmorante_blanco_2021(parameter) {
-    var x= document.getElementById('amorante_blanco_2021');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
-</li>
-<li><div class="text-justify"><span id="blanco_morante_2021">Eduardo Blanco and Roser Morante. 2021. Processing negation: An introduction to the special issue. <i>Natural Language Engineering</i>, 27(2):119–120. Cambridge University Press.</span></div>
-<button class="button" onclick="toggleBibtexblanco_morante_2021()">bibtex</button>
-
-
-    <a href="http://doi.org/10.1017/S1351324920000522" target="_blank"><input class="button" type="button" value="link" /></a>
-
-
-
-
-
-
-<div id="ablanco_morante_2021" style="display: none;">
-<pre>@article{blanco_morante_2021,
-  title = {Processing negation: An introduction to the special issue},
-  volume = {27},
-  doi = {10.1017/S1351324920000522},
-  number = {2},
-  journal = {Natural Language Engineering},
-  publisher = {Cambridge University Press},
-  author = {Blanco, Eduardo and Morante, Roser},
-  year = {2021},
-  pages = {119–120}
-}
-</pre>
-</div>
-
-<script>
-function toggleBibtexblanco_morante_2021(parameter) {
-    var x= document.getElementById('ablanco_morante_2021');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
-</li>
-<li><div class="text-justify"><span id="tarau_blanco_2021">Paul Tarau and Eduardo Blanco. 2021. Interactive Text Graph Mining with a Prolog-Based Dialog Engine. <i>Theory and Practice of Logic Programming</i>, 21(2):244–263. Cambridge University Press.</span></div>
-<button class="button" onclick="toggleBibtextarau_blanco_2021()">bibtex</button>
-
-
-    <a href="http://doi.org/10.1017/S1471068420000137" target="_blank"><input class="button" type="button" value="link" /></a>
-
-
-
-
-
-
-<div id="atarau_blanco_2021" style="display: none;">
-<pre>@article{tarau_blanco_2021,
-  title = {Interactive Text Graph Mining with a Prolog-Based Dialog Engine},
-  volume = {21},
-  doi = {10.1017/S1471068420000137},
-  number = {2},
-  journal = {Theory and Practice of Logic Programming},
-  publisher = {Cambridge University Press},
-  author = {Tarau, Paul and Blanco, Eduardo},
-  year = {2021},
-  pages = {244–263}
-}
-</pre>
-</div>
-
-<script>
-function toggleBibtextarau_blanco_2021(parameter) {
-    var x= document.getElementById('atarau_blanco_2021');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
-</li>
-<li><div class="text-justify"><span id="vempala_blanco_2021">Alakananda Vempala and Eduardo Blanco. 2021. Temporally anchored spatial knowledge: Corpora and experiments. <i>Natural Language Engineering</i>, 27(5):519–543. Cambridge University Press.</span></div>
-<button class="button" onclick="toggleBibtexvempala_blanco_2021()">bibtex</button>
-
-
-    <a href="http://doi.org/10.1017/S1351324920000212" target="_blank"><input class="button" type="button" value="link" /></a>
-
-
-
-
-
-
-<div id="avempala_blanco_2021" style="display: none;">
-<pre>@article{vempala_blanco_2021,
-  title = {Temporally anchored spatial knowledge: Corpora and experiments},
-  volume = {27},
-  doi = {10.1017/S1351324920000212},
-  number = {5},
-  journal = {Natural Language Engineering},
-  publisher = {Cambridge University Press},
-  author = {Vempala, Alakananda and Blanco, Eduardo},
-  year = {2021},
-  pages = {519–543}
-}
-</pre>
-</div>
-
-<script>
-function toggleBibtexvempala_blanco_2021(parameter) {
-    var x= document.getElementById('avempala_blanco_2021');
+function toggleBibtexchinnappa_blanco_2021(parameter) {
+    var x= document.getElementById('achinnappa_blanco_2021');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -900,33 +853,146 @@ function toggleBibtexmadala2021model(parameter) {
 }
 </script>
 </li>
-<li><div class="text-justify"><span id="chinnappa_blanco_2021">Dhivya Chinnappa and Eduardo Blanco. 2021. Extracting possessions from text: Experiments and error analysis. <i>Natural Language Engineering</i>:1–22. Cambridge University Press.</span></div>
-<button class="button" onclick="toggleBibtexchinnappa_blanco_2021()">bibtex</button>
+<li><div class="text-justify"><span id="vempala_blanco_2021">Alakananda Vempala and Eduardo Blanco. 2021. Temporally anchored spatial knowledge: Corpora and experiments. <i>Natural Language Engineering</i>, 27(5):519–543. Cambridge University Press.</span></div>
+<button class="button" onclick="toggleBibtexvempala_blanco_2021()">bibtex</button>
 
 
-    <a href="http://doi.org/10.1017/S1351324921000012" target="_blank"><input class="button" type="button" value="link" /></a>
-
-
-
+    <a href="http://doi.org/10.1017/S1351324920000212" target="_blank"><input class="button" type="button" value="link" /></a>
 
 
 
-<div id="achinnappa_blanco_2021" style="display: none;">
-<pre>@article{chinnappa_blanco_2021,
-  title = {Extracting possessions from text: Experiments and error analysis},
-  doi = {10.1017/S1351324921000012},
+
+
+
+<div id="avempala_blanco_2021" style="display: none;">
+<pre>@article{vempala_blanco_2021,
+  title = {Temporally anchored spatial knowledge: Corpora and experiments},
+  volume = {27},
+  doi = {10.1017/S1351324920000212},
+  number = {5},
   journal = {Natural Language Engineering},
   publisher = {Cambridge University Press},
-  author = {Chinnappa, Dhivya and Blanco, Eduardo},
+  author = {Vempala, Alakananda and Blanco, Eduardo},
   year = {2021},
-  pages = {1–22}
+  pages = {519–543}
 }
 </pre>
 </div>
 
 <script>
-function toggleBibtexchinnappa_blanco_2021(parameter) {
-    var x= document.getElementById('achinnappa_blanco_2021');
+function toggleBibtexvempala_blanco_2021(parameter) {
+    var x= document.getElementById('avempala_blanco_2021');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><div class="text-justify"><span id="tarau_blanco_2021">Paul Tarau and Eduardo Blanco. 2021. Interactive Text Graph Mining with a Prolog-Based Dialog Engine. <i>Theory and Practice of Logic Programming</i>, 21(2):244–263. Cambridge University Press.</span></div>
+<button class="button" onclick="toggleBibtextarau_blanco_2021()">bibtex</button>
+
+
+    <a href="http://doi.org/10.1017/S1471068420000137" target="_blank"><input class="button" type="button" value="link" /></a>
+
+
+
+
+
+
+<div id="atarau_blanco_2021" style="display: none;">
+<pre>@article{tarau_blanco_2021,
+  title = {Interactive Text Graph Mining with a Prolog-Based Dialog Engine},
+  volume = {21},
+  doi = {10.1017/S1471068420000137},
+  number = {2},
+  journal = {Theory and Practice of Logic Programming},
+  publisher = {Cambridge University Press},
+  author = {Tarau, Paul and Blanco, Eduardo},
+  year = {2021},
+  pages = {244–263}
+}
+</pre>
+</div>
+
+<script>
+function toggleBibtextarau_blanco_2021(parameter) {
+    var x= document.getElementById('atarau_blanco_2021');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><div class="text-justify"><span id="blanco_morante_2021">Eduardo Blanco and Roser Morante. 2021. Processing negation: An introduction to the special issue. <i>Natural Language Engineering</i>, 27(2):119–120. Cambridge University Press.</span></div>
+<button class="button" onclick="toggleBibtexblanco_morante_2021()">bibtex</button>
+
+
+    <a href="http://doi.org/10.1017/S1351324920000522" target="_blank"><input class="button" type="button" value="link" /></a>
+
+
+
+
+
+
+<div id="ablanco_morante_2021" style="display: none;">
+<pre>@article{blanco_morante_2021,
+  title = {Processing negation: An introduction to the special issue},
+  volume = {27},
+  doi = {10.1017/S1351324920000522},
+  number = {2},
+  journal = {Natural Language Engineering},
+  publisher = {Cambridge University Press},
+  author = {Blanco, Eduardo and Morante, Roser},
+  year = {2021},
+  pages = {119–120}
+}
+</pre>
+</div>
+
+<script>
+function toggleBibtexblanco_morante_2021(parameter) {
+    var x= document.getElementById('ablanco_morante_2021');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><div class="text-justify"><span id="morante_blanco_2021">Roser Morante and Eduardo Blanco. 2021. Recent advances in processing negation. <i>Natural Language Engineering</i>, 27(2):121–130. Cambridge University Press.</span></div>
+<button class="button" onclick="toggleBibtexmorante_blanco_2021()">bibtex</button>
+
+
+    <a href="http://doi.org/10.1017/S1351324920000534" target="_blank"><input class="button" type="button" value="link" /></a>
+
+
+
+
+
+
+<div id="amorante_blanco_2021" style="display: none;">
+<pre>@article{morante_blanco_2021,
+  title = {Recent advances in processing negation},
+  volume = {27},
+  doi = {10.1017/S1351324920000534},
+  number = {2},
+  journal = {Natural Language Engineering},
+  publisher = {Cambridge University Press},
+  author = {Morante, Roser and Blanco, Eduardo},
+  year = {2021},
+  pages = {121–130}
+}
+</pre>
+</div>
+
+<script>
+function toggleBibtexmorante_blanco_2021(parameter) {
+    var x= document.getElementById('amorante_blanco_2021');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -968,86 +1034,6 @@ function toggleBibtexchinnappa_blanco_2021(parameter) {
 <script>
 function toggleBibtexsanders_etal_2020_extracting(parameter) {
     var x= document.getElementById('asanders-etal-2020-extracting');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
-</li>
-<li><div class="text-justify"><span id="murugan-etal-2020-determining">Srikala Murugan, Dhivya Chinnappa, and Eduardo Blanco. 2020. Determining Event Outcomes: The Case of #fail. In <i>Findings of the Association for Computational Linguistics: EMNLP 2020</i>, pages 4021–4033, Online. Association for Computational Linguistics.</span></div>
-<button class="button" onclick="toggleBibtexmurugan_etal_2020_determining()">bibtex</button>
-
-
-    <a href="http://doi.org/10.18653/v1/2020.findings-emnlp.359" target="_blank"><input class="button" type="button" value="link" /></a>
-
-
-
-
-
-
-<div id="amurugan-etal-2020-determining" style="display: none;">
-<pre>@inproceedings{murugan-etal-2020-determining,
-  title = {Determining Event Outcomes: The Case of {\#}fail},
-  author = {Murugan, Srikala and Chinnappa, Dhivya and Blanco, Eduardo},
-  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2020},
-  month = nov,
-  year = {2020},
-  address = {Online},
-  publisher = {Association for Computational Linguistics},
-  url = {https://aclanthology.org/2020.findings-emnlp.359},
-  doi = {10.18653/v1/2020.findings-emnlp.359},
-  pages = {4021--4033},
-  abstract = {This paper targets the task of determining event outcomes in social media. We work with tweets containing either {\#}cookingFail or {\#}bakingFail, and show that many of the events described in them resulted in something edible. Tweets that contain images are more likely to result in edible albeit imperfect outcomes. Experimental results show that edibility is easier to predict than outcome quality.},
-  month_numeric = {11}
-}
-</pre>
-</div>
-
-<script>
-function toggleBibtexmurugan_etal_2020_determining(parameter) {
-    var x= document.getElementById('amurugan-etal-2020-determining');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
-</li>
-<li><div class="text-justify"><span id="rashid-etal-2020-helpful">Farzana Rashid, Tommaso Fornaciari, Dirk Hovy, Eduardo Blanco, and Fernando Vega-Redondo. 2020. Helpful or Hierarchical? Predicting the Communicative Strategies of Chat Participants, and their Impact on Success. In <i>Findings of the Association for Computational Linguistics: EMNLP 2020</i>, pages 2366–2371, Online. Association for Computational Linguistics.</span></div>
-<button class="button" onclick="toggleBibtexrashid_etal_2020_helpful()">bibtex</button>
-
-
-    <a href="http://doi.org/10.18653/v1/2020.findings-emnlp.214" target="_blank"><input class="button" type="button" value="link" /></a>
-
-
-
-
-
-
-<div id="arashid-etal-2020-helpful" style="display: none;">
-<pre>@inproceedings{rashid-etal-2020-helpful,
-  title = {Helpful or Hierarchical? Predicting the Communicative Strategies of Chat Participants, and their Impact on Success},
-  author = {Rashid, Farzana and Fornaciari, Tommaso and Hovy, Dirk and Blanco, Eduardo and Vega-Redondo, Fernando},
-  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2020},
-  month = nov,
-  year = {2020},
-  address = {Online},
-  publisher = {Association for Computational Linguistics},
-  url = {https://aclanthology.org/2020.findings-emnlp.214},
-  doi = {10.18653/v1/2020.findings-emnlp.214},
-  pages = {2366--2371},
-  abstract = {When interacting with each other, we motivate, advise, inform, show love or power towards our peers. However, the way we interact may also hold some indication on how successful we are, as people often try to help each other to achieve their goals. We study the chat interactions of thousands of aspiring entrepreneurs who discuss and develop business models. We manually annotate a set of about 5,500 chat interactions with four dimensions of interaction styles (motivation, cooperation, equality, advice). We find that these styles can be reliably predicted, and that the communication styles can be used to predict a number of indices of business success. Our findings indicate that successful communicators are also successful in other domains.},
-  month_numeric = {11}
-}
-</pre>
-</div>
-
-<script>
-function toggleBibtexrashid_etal_2020_helpful(parameter) {
-    var x= document.getElementById('arashid-etal-2020-helpful');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -1136,38 +1122,78 @@ function toggleBibtexhossain_etal_2020_analysis(parameter) {
 }
 </script>
 </li>
-<li><div class="text-justify"><span id="hossain-etal-2020-predicting">Md Mosharaf Hossain, Kathleen Hamilton, Alexis Palmer, and Eduardo Blanco. 2020. Predicting the Focus of Negation: Model and Error Analysis. In <i>Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics</i>, pages 8389–8401, Online. Association for Computational Linguistics.</span></div>
-<button class="button" onclick="toggleBibtexhossain_etal_2020_predicting()">bibtex</button>
+<li><div class="text-justify"><span id="murugan-etal-2020-determining">Srikala Murugan, Dhivya Chinnappa, and Eduardo Blanco. 2020. Determining Event Outcomes: The Case of #fail. In <i>Findings of the Association for Computational Linguistics: EMNLP 2020</i>, pages 4021–4033, Online. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexmurugan_etal_2020_determining()">bibtex</button>
 
 
-    <a href="http://doi.org/10.18653/v1/2020.acl-main.743" target="_blank"><input class="button" type="button" value="link" /></a>
-
-
-
+    <a href="http://doi.org/10.18653/v1/2020.findings-emnlp.359" target="_blank"><input class="button" type="button" value="link" /></a>
 
 
 
-<div id="ahossain-etal-2020-predicting" style="display: none;">
-<pre>@inproceedings{hossain-etal-2020-predicting,
-  title = {Predicting the Focus of Negation: Model and Error Analysis},
-  author = {Hossain, Md Mosharaf and Hamilton, Kathleen and Palmer, Alexis and Blanco, Eduardo},
-  booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
-  month = jul,
+
+
+
+<div id="amurugan-etal-2020-determining" style="display: none;">
+<pre>@inproceedings{murugan-etal-2020-determining,
+  title = {Determining Event Outcomes: The Case of {\#}fail},
+  author = {Murugan, Srikala and Chinnappa, Dhivya and Blanco, Eduardo},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2020},
+  month = nov,
   year = {2020},
   address = {Online},
   publisher = {Association for Computational Linguistics},
-  url = {https://aclanthology.org/2020.acl-main.743},
-  doi = {10.18653/v1/2020.acl-main.743},
-  pages = {8389--8401},
-  abstract = {The focus of a negation is the set of tokens intended to be negated, and a key component for revealing affirmative alternatives to negated utterances. In this paper, we experiment with neural networks to predict the focus of negation. Our main novelty is leveraging a scope detector to introduce the scope of negation as an additional input to the network. Experimental results show that doing so obtains the best results to date. Additionally, we perform a detailed error analysis providing insights into the main error categories, and analyze errors depending on whether the model takes into account scope and context information.},
-  month_numeric = {7}
+  url = {https://aclanthology.org/2020.findings-emnlp.359},
+  doi = {10.18653/v1/2020.findings-emnlp.359},
+  pages = {4021--4033},
+  abstract = {This paper targets the task of determining event outcomes in social media. We work with tweets containing either {\#}cookingFail or {\#}bakingFail, and show that many of the events described in them resulted in something edible. Tweets that contain images are more likely to result in edible albeit imperfect outcomes. Experimental results show that edibility is easier to predict than outcome quality.},
+  month_numeric = {11}
 }
 </pre>
 </div>
 
 <script>
-function toggleBibtexhossain_etal_2020_predicting(parameter) {
-    var x= document.getElementById('ahossain-etal-2020-predicting');
+function toggleBibtexmurugan_etal_2020_determining(parameter) {
+    var x= document.getElementById('amurugan-etal-2020-determining');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><div class="text-justify"><span id="rashid-etal-2020-helpful">Farzana Rashid, Tommaso Fornaciari, Dirk Hovy, Eduardo Blanco, and Fernando Vega-Redondo. 2020. Helpful or Hierarchical? Predicting the Communicative Strategies of Chat Participants, and their Impact on Success. In <i>Findings of the Association for Computational Linguistics: EMNLP 2020</i>, pages 2366–2371, Online. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexrashid_etal_2020_helpful()">bibtex</button>
+
+
+    <a href="http://doi.org/10.18653/v1/2020.findings-emnlp.214" target="_blank"><input class="button" type="button" value="link" /></a>
+
+
+
+
+
+
+<div id="arashid-etal-2020-helpful" style="display: none;">
+<pre>@inproceedings{rashid-etal-2020-helpful,
+  title = {Helpful or Hierarchical? Predicting the Communicative Strategies of Chat Participants, and their Impact on Success},
+  author = {Rashid, Farzana and Fornaciari, Tommaso and Hovy, Dirk and Blanco, Eduardo and Vega-Redondo, Fernando},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2020},
+  month = nov,
+  year = {2020},
+  address = {Online},
+  publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2020.findings-emnlp.214},
+  doi = {10.18653/v1/2020.findings-emnlp.214},
+  pages = {2366--2371},
+  abstract = {When interacting with each other, we motivate, advise, inform, show love or power towards our peers. However, the way we interact may also hold some indication on how successful we are, as people often try to help each other to achieve their goals. We study the chat interactions of thousands of aspiring entrepreneurs who discuss and develop business models. We manually annotate a set of about 5,500 chat interactions with four dimensions of interaction styles (motivation, cooperation, equality, advice). We find that these styles can be reliably predicted, and that the communication styles can be used to predict a number of indices of business success. Our findings indicate that successful communicators are also successful in other domains.},
+  month_numeric = {11}
+}
+</pre>
+</div>
+
+<script>
+function toggleBibtexrashid_etal_2020_helpful(parameter) {
+    var x= document.getElementById('arashid-etal-2020-helpful');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -1208,6 +1234,46 @@ function toggleBibtexhossain_etal_2020_predicting(parameter) {
 <script>
 function toggleBibtexchinnappa_etal_2020_beyond(parameter) {
     var x= document.getElementById('achinnappa-etal-2020-beyond');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><div class="text-justify"><span id="hossain-etal-2020-predicting">Md Mosharaf Hossain, Kathleen Hamilton, Alexis Palmer, and Eduardo Blanco. 2020. Predicting the Focus of Negation: Model and Error Analysis. In <i>Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics</i>, pages 8389–8401, Online. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexhossain_etal_2020_predicting()">bibtex</button>
+
+
+    <a href="http://doi.org/10.18653/v1/2020.acl-main.743" target="_blank"><input class="button" type="button" value="link" /></a>
+
+
+
+
+
+
+<div id="ahossain-etal-2020-predicting" style="display: none;">
+<pre>@inproceedings{hossain-etal-2020-predicting,
+  title = {Predicting the Focus of Negation: Model and Error Analysis},
+  author = {Hossain, Md Mosharaf and Hamilton, Kathleen and Palmer, Alexis and Blanco, Eduardo},
+  booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
+  month = jul,
+  year = {2020},
+  address = {Online},
+  publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2020.acl-main.743},
+  doi = {10.18653/v1/2020.acl-main.743},
+  pages = {8389--8401},
+  abstract = {The focus of a negation is the set of tokens intended to be negated, and a key component for revealing affirmative alternatives to negated utterances. In this paper, we experiment with neural networks to predict the focus of negation. Our main novelty is leveraging a scope detector to introduce the scope of negation as an additional input to the network. Experimental results show that doing so obtains the best results to date. Additionally, we perform a detailed error analysis providing insights into the main error categories, and analyze errors depending on whether the model takes into account scope and context information.},
+  month_numeric = {7}
+}
+</pre>
+</div>
+
+<script>
+function toggleBibtexhossain_etal_2020_predicting(parameter) {
+    var x= document.getElementById('ahossain-etal-2020-predicting');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -1461,47 +1527,6 @@ function toggleBibtexchinnappa_etal_2019_extracting(parameter) {
 }
 </script>
 </li>
-<li><div class="text-justify"><span id="sarabi-etal-2019-corpus">Zahra Sarabi, Erin Killian, Eduardo Blanco, and Alexis Palmer. 2019. A Corpus of Negations and their Underlying Positive Interpretations. In <i>Proceedings of the Eighth Joint Conference on Lexical and Computational Semantics (*SEM 2019)</i>, pages 158–167, Minneapolis, Minnesota. Association for Computational Linguistics.</span></div>
-<button class="button" onclick="toggleBibtexsarabi_etal_2019_corpus()">bibtex</button>
-
-
-  
-      <a href="https://www.aclweb.org/anthology/S19-1017" target="_blank"><input class="button" type="button" value="link" /></a>
-  
-
-
-
-
-
-
-<div id="asarabi-etal-2019-corpus" style="display: none;">
-<pre>@inproceedings{sarabi-etal-2019-corpus,
-  title = {A Corpus of Negations and their Underlying Positive Interpretations},
-  author = {Sarabi, Zahra and Killian, Erin and Blanco, Eduardo and Palmer, Alexis},
-  booktitle = {Proceedings of the Eighth Joint Conference on Lexical and Computational Semantics (*{SEM} 2019)},
-  month = jun,
-  year = {2019},
-  address = {Minneapolis, Minnesota},
-  publisher = {Association for Computational Linguistics},
-  url = {https://www.aclweb.org/anthology/S19-1017},
-  pages = {158--167},
-  abstract = {Negation often conveys implicit positive meaning. In this paper, we present a corpus of negations and their underlying positive interpretations. We work with negations from Simple Wikipedia, automatically generate potential positive interpretations, and then collect manual annotations that effectively rewrite the negation in positive terms. This procedure yields positive interpretations for approximately 77{\%} of negations, and the final corpus includes over 5,700 negations and over 5,900 positive interpretations. We also present baseline results using seq2seq neural models.},
-  month_numeric = {6}
-}
-</pre>
-</div>
-
-<script>
-function toggleBibtexsarabi_etal_2019_corpus(parameter) {
-    var x= document.getElementById('asarabi-etal-2019-corpus');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
-</li>
 <li><div class="text-justify"><span id="singh-etal-2019-incorporating">Abhishek Singh, Eduardo Blanco, and Wei Jin. 2019. Incorporating Emoji Descriptions Improves Tweet Classification. In <i>Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)</i>, pages 2096–2101, Minneapolis, Minnesota. Association for Computational Linguistics.</span></div>
 <button class="button" onclick="toggleBibtexsingh_etal_2019_incorporating()">bibtex</button>
 
@@ -1543,13 +1568,12 @@ function toggleBibtexsingh_etal_2019_incorporating(parameter) {
 }
 </script>
 </li>
-<li><div class="text-justify"><span id="DBLP:conf/flairs/Sarabi019">Zahra Sarabi and Eduardo Blanco. 2019. Identifying the Focus of Negation Using Discourse Structure. In <i>Proceedings of the Thirty-Second International Florida Artificial
-               Intelligence Research Society Conference (FLAIRS)</i>, pages 448–452.</span></div>
-<button class="button" onclick="toggleBibtexDBLP_conf_flairs_Sarabi019()">bibtex</button>
+<li><div class="text-justify"><span id="sarabi-etal-2019-corpus">Zahra Sarabi, Erin Killian, Eduardo Blanco, and Alexis Palmer. 2019. A Corpus of Negations and their Underlying Positive Interpretations. In <i>Proceedings of the Eighth Joint Conference on Lexical and Computational Semantics (*SEM 2019)</i>, pages 158–167, Minneapolis, Minnesota. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexsarabi_etal_2019_corpus()">bibtex</button>
 
 
   
-      <a href="https://aaai.org/ocs/index.php/FLAIRS/FLAIRS19/paper/view/18145" target="_blank"><input class="button" type="button" value="link" /></a>
+      <a href="https://www.aclweb.org/anthology/S19-1017" target="_blank"><input class="button" type="button" value="link" /></a>
   
 
 
@@ -1557,23 +1581,26 @@ function toggleBibtexsingh_etal_2019_incorporating(parameter) {
 
 
 
-<div id="aDBLP:conf/flairs/Sarabi019" style="display: none;">
-<pre>@inproceedings{DBLP:conf/flairs/Sarabi019,
-  author = {Sarabi, Zahra and Blanco, Eduardo},
-  title = {Identifying the Focus of Negation Using Discourse Structure},
-  booktitle = {Proceedings of the Thirty-Second International Florida Artificial
-                 Intelligence Research Society Conference (FLAIRS)},
-  location = {Sarasota, Florida},
-  pages = {448--452},
+<div id="asarabi-etal-2019-corpus" style="display: none;">
+<pre>@inproceedings{sarabi-etal-2019-corpus,
+  title = {A Corpus of Negations and their Underlying Positive Interpretations},
+  author = {Sarabi, Zahra and Killian, Erin and Blanco, Eduardo and Palmer, Alexis},
+  booktitle = {Proceedings of the Eighth Joint Conference on Lexical and Computational Semantics (*{SEM} 2019)},
+  month = jun,
   year = {2019},
-  url = {https://aaai.org/ocs/index.php/FLAIRS/FLAIRS19/paper/view/18145}
+  address = {Minneapolis, Minnesota},
+  publisher = {Association for Computational Linguistics},
+  url = {https://www.aclweb.org/anthology/S19-1017},
+  pages = {158--167},
+  abstract = {Negation often conveys implicit positive meaning. In this paper, we present a corpus of negations and their underlying positive interpretations. We work with negations from Simple Wikipedia, automatically generate potential positive interpretations, and then collect manual annotations that effectively rewrite the negation in positive terms. This procedure yields positive interpretations for approximately 77{\%} of negations, and the final corpus includes over 5,700 negations and over 5,900 positive interpretations. We also present baseline results using seq2seq neural models.},
+  month_numeric = {6}
 }
 </pre>
 </div>
 
 <script>
-function toggleBibtexDBLP_conf_flairs_Sarabi019(parameter) {
-    var x= document.getElementById('aDBLP:conf/flairs/Sarabi019');
+function toggleBibtexsarabi_etal_2019_corpus(parameter) {
+    var x= document.getElementById('asarabi-etal-2019-corpus');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -1611,6 +1638,45 @@ function toggleBibtexDBLP_conf_flairs_Sarabi019(parameter) {
 <script>
 function toggleBibtexalohaly2019towards(parameter) {
     var x= document.getElementById('aalohaly2019towards');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><div class="text-justify"><span id="DBLP:conf/flairs/Sarabi019">Zahra Sarabi and Eduardo Blanco. 2019. Identifying the Focus of Negation Using Discourse Structure. In <i>Proceedings of the Thirty-Second International Florida Artificial
+               Intelligence Research Society Conference (FLAIRS)</i>, pages 448–452.</span></div>
+<button class="button" onclick="toggleBibtexDBLP_conf_flairs_Sarabi019()">bibtex</button>
+
+
+  
+      <a href="https://aaai.org/ocs/index.php/FLAIRS/FLAIRS19/paper/view/18145" target="_blank"><input class="button" type="button" value="link" /></a>
+  
+
+
+
+
+
+
+<div id="aDBLP:conf/flairs/Sarabi019" style="display: none;">
+<pre>@inproceedings{DBLP:conf/flairs/Sarabi019,
+  author = {Sarabi, Zahra and Blanco, Eduardo},
+  title = {Identifying the Focus of Negation Using Discourse Structure},
+  booktitle = {Proceedings of the Thirty-Second International Florida Artificial
+                 Intelligence Research Society Conference (FLAIRS)},
+  location = {Sarasota, Florida},
+  pages = {448--452},
+  year = {2019},
+  url = {https://aaai.org/ocs/index.php/FLAIRS/FLAIRS19/paper/view/18145}
+}
+</pre>
+</div>
+
+<script>
+function toggleBibtexDBLP_conf_flairs_Sarabi019(parameter) {
+    var x= document.getElementById('aDBLP:conf/flairs/Sarabi019');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -1700,46 +1766,6 @@ function toggleBibtexrashid_blanco_2018_characterizing(parameter) {
 }
 </script>
 </li>
-<li><div class="text-justify"><span id="vempala-etal-2018-determining">Alakananda Vempala, Eduardo Blanco, and Alexis Palmer. 2018. Determining Event Durations: Models and Error Analysis. In <i>Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers)</i>, pages 164–168, New Orleans, Louisiana. Association for Computational Linguistics.</span></div>
-<button class="button" onclick="toggleBibtexvempala_etal_2018_determining()">bibtex</button>
-
-
-    <a href="http://doi.org/10.18653/v1/N18-2026" target="_blank"><input class="button" type="button" value="link" /></a>
-
-
-
-
-
-
-<div id="avempala-etal-2018-determining" style="display: none;">
-<pre>@inproceedings{vempala-etal-2018-determining,
-  title = {Determining Event Durations: Models and Error Analysis},
-  author = {Vempala, Alakananda and Blanco, Eduardo and Palmer, Alexis},
-  booktitle = {Proceedings of the 2018 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers)},
-  month = jun,
-  year = {2018},
-  address = {New Orleans, Louisiana},
-  publisher = {Association for Computational Linguistics},
-  url = {https://aclanthology.org/N18-2026},
-  doi = {10.18653/v1/N18-2026},
-  pages = {164--168},
-  abstract = {This paper presents models to predict event durations. We introduce aspectual features that capture deeper linguistic information than previous work, and experiment with neural networks. Our analysis shows that tense, aspect and temporal structure of the clause provide useful clues, and that an LSTM ensemble captures relevant context around the event.},
-  month_numeric = {6}
-}
-</pre>
-</div>
-
-<script>
-function toggleBibtexvempala_etal_2018_determining(parameter) {
-    var x= document.getElementById('avempala-etal-2018-determining');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
-</li>
 <li><div class="text-justify"><span id="chinnappa-blanco-2018-mining">Dhivya Chinnappa and Eduardo Blanco. 2018. Mining Possessions: Existence, Type and Temporal Anchors. In <i>Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)</i>, pages 496–505, New Orleans, Louisiana. Association for Computational Linguistics.</span></div>
 <button class="button" onclick="toggleBibtexchinnappa_blanco_2018_mining()">bibtex</button>
 
@@ -1772,6 +1798,46 @@ function toggleBibtexvempala_etal_2018_determining(parameter) {
 <script>
 function toggleBibtexchinnappa_blanco_2018_mining(parameter) {
     var x= document.getElementById('achinnappa-blanco-2018-mining');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><div class="text-justify"><span id="vempala-etal-2018-determining">Alakananda Vempala, Eduardo Blanco, and Alexis Palmer. 2018. Determining Event Durations: Models and Error Analysis. In <i>Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers)</i>, pages 164–168, New Orleans, Louisiana. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexvempala_etal_2018_determining()">bibtex</button>
+
+
+    <a href="http://doi.org/10.18653/v1/N18-2026" target="_blank"><input class="button" type="button" value="link" /></a>
+
+
+
+
+
+
+<div id="avempala-etal-2018-determining" style="display: none;">
+<pre>@inproceedings{vempala-etal-2018-determining,
+  title = {Determining Event Durations: Models and Error Analysis},
+  author = {Vempala, Alakananda and Blanco, Eduardo and Palmer, Alexis},
+  booktitle = {Proceedings of the 2018 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers)},
+  month = jun,
+  year = {2018},
+  address = {New Orleans, Louisiana},
+  publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/N18-2026},
+  doi = {10.18653/v1/N18-2026},
+  pages = {164--168},
+  abstract = {This paper presents models to predict event durations. We introduce aspectual features that capture deeper linguistic information than previous work, and experiment with neural networks. Our analysis shows that tense, aspect and temporal structure of the clause provide useful clues, and that an LSTM ensemble captures relevant context around the event.},
+  month_numeric = {6}
+}
+</pre>
+</div>
+
+<script>
+function toggleBibtexvempala_etal_2018_determining(parameter) {
+    var x= document.getElementById('avempala-etal-2018-determining');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -2230,6 +2296,42 @@ function toggleBibtexVEMPALA16_418(parameter) {
 }
 </script>
 </li>
+<li><div class="text-justify"><span id="schwartz2016predicting">H. Andrew Schwartz, Maarten Sap, Margaret L. Kern, Johannes C. Eichstaedt, Adam Kapelner, Megha Agrawal, Eduardo Blanco, Lukasz Dziurzynski, Gregory Park, David Stillwell, Michal Kosinski, Martin E.P. Seligman, and Lyle H. Ungar. 2016. Predicting individual well-being through the language of social media. In <i>Biocomputing 2016: Proceedings of the Pacific Symposium</i>, pages 516–527.</span></div>
+<button class="button" onclick="toggleBibtexschwartz2016predicting()">bibtex</button>
+
+
+  
+      <a href="https://pubmed.ncbi.nlm.nih.gov/26776214/" target="_blank"><input class="button" type="button" value="link" /></a>
+  
+
+
+
+
+
+
+<div id="aschwartz2016predicting" style="display: none;">
+<pre>@inproceedings{schwartz2016predicting,
+  year = {2016},
+  pages = {516--527},
+  booktitle = {Biocomputing 2016: Proceedings of the Pacific Symposium},
+  author = {Schwartz, H. Andrew and Sap, Maarten and Kern, Margaret L. and Eichstaedt, Johannes C. and Kapelner, Adam and Agrawal, Megha and Blanco, Eduardo and Dziurzynski, Lukasz and Park, Gregory and Stillwell, David and Kosinski, Michal and Seligman, Martin E.P. and Ungar, Lyle H.},
+  title = {Predicting individual well-being through the language of social media},
+  url = {https://pubmed.ncbi.nlm.nih.gov/26776214/}
+}
+</pre>
+</div>
+
+<script>
+function toggleBibtexschwartz2016predicting(parameter) {
+    var x= document.getElementById('aschwartz2016predicting');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
 <li><div class="text-justify"><span id="DBLP:conf/aaai/VempalaB16">Alakananda Vempala and Eduardo Blanco. 2016. Complementing Semantic Roles with Temporally Anchored Spatial Knowledge: Crowdsourced Annotations and Experiments. In <i>Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence</i>, pages 2652–2658, Phoenix, Arizona.</span></div>
 <button class="button" onclick="toggleBibtexDBLP_conf_aaai_VempalaB16()">bibtex</button>
 
@@ -2259,42 +2361,6 @@ function toggleBibtexVEMPALA16_418(parameter) {
 <script>
 function toggleBibtexDBLP_conf_aaai_VempalaB16(parameter) {
     var x= document.getElementById('aDBLP:conf/aaai/VempalaB16');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
-</li>
-<li><div class="text-justify"><span id="schwartz2016predicting">H. Andrew Schwartz, Maarten Sap, Margaret L. Kern, Johannes C. Eichstaedt, Adam Kapelner, Megha Agrawal, Eduardo Blanco, Lukasz Dziurzynski, Gregory Park, David Stillwell, Michal Kosinski, Martin E.P. Seligman, and Lyle H. Ungar. 2016. Predicting individual well-being through the language of social media. In <i>Biocomputing 2016: Proceedings of the Pacific Symposium</i>, pages 516–527.</span></div>
-<button class="button" onclick="toggleBibtexschwartz2016predicting()">bibtex</button>
-
-
-  
-      <a href="https://pubmed.ncbi.nlm.nih.gov/26776214/" target="_blank"><input class="button" type="button" value="link" /></a>
-  
-
-
-
-
-
-
-<div id="aschwartz2016predicting" style="display: none;">
-<pre>@inproceedings{schwartz2016predicting,
-  year = {2016},
-  pages = {516--527},
-  booktitle = {Biocomputing 2016: Proceedings of the Pacific Symposium},
-  author = {Schwartz, H. Andrew and Sap, Maarten and Kern, Margaret L. and Eichstaedt, Johannes C. and Kapelner, Adam and Agrawal, Megha and Blanco, Eduardo and Dziurzynski, Lukasz and Park, Gregory and Stillwell, David and Kosinski, Michal and Seligman, Martin E.P. and Ungar, Lyle H.},
-  title = {Predicting individual well-being through the language of social media},
-  url = {https://pubmed.ncbi.nlm.nih.gov/26776214/}
-}
-</pre>
-</div>
-
-<script>
-function toggleBibtexschwartz2016predicting(parameter) {
-    var x= document.getElementById('aschwartz2016predicting');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -2864,47 +2930,7 @@ function toggleBibtexmorante_blanco_2012_sem(parameter) {
 </script>
 </li></ol>
 <h2 class="bibliography">2011</h2>
-<ol class="bibliography"><li><div class="text-justify"><span id="blanco-moldovan-2011-unsupervised">Eduardo Blanco and Dan Moldovan. 2011. Unsupervised Learning of Semantic Relation Composition. In <i>Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies</i>, pages 1456–1465, Portland, Oregon, USA. Association for Computational Linguistics.</span></div>
-<button class="button" onclick="toggleBibtexblanco_moldovan_2011_unsupervised()">bibtex</button>
-
-
-  
-      <a href="https://aclanthology.org/P11-1146" target="_blank"><input class="button" type="button" value="link" /></a>
-  
-
-
-
-
-
-
-<div id="ablanco-moldovan-2011-unsupervised" style="display: none;">
-<pre>@inproceedings{blanco-moldovan-2011-unsupervised,
-  title = {Unsupervised Learning of Semantic Relation Composition},
-  author = {Blanco, Eduardo and Moldovan, Dan},
-  booktitle = {Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies},
-  month = jun,
-  year = {2011},
-  address = {Portland, Oregon, USA},
-  publisher = {Association for Computational Linguistics},
-  url = {https://aclanthology.org/P11-1146},
-  pages = {1456--1465},
-  month_numeric = {6}
-}
-</pre>
-</div>
-
-<script>
-function toggleBibtexblanco_moldovan_2011_unsupervised(parameter) {
-    var x= document.getElementById('ablanco-moldovan-2011-unsupervised');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
-</li>
-<li><div class="text-justify"><span id="blanco-moldovan-2011-semantic">Eduardo Blanco and Dan Moldovan. 2011. Semantic Representation of Negation Using Focus Detection. In <i>Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies</i>, pages 581–589, Portland, Oregon, USA. Association for Computational Linguistics.</span></div>
+<ol class="bibliography"><li><div class="text-justify"><span id="blanco-moldovan-2011-semantic">Eduardo Blanco and Dan Moldovan. 2011. Semantic Representation of Negation Using Focus Detection. In <i>Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies</i>, pages 581–589, Portland, Oregon, USA. Association for Computational Linguistics.</span></div>
 <button class="button" onclick="toggleBibtexblanco_moldovan_2011_semantic()">bibtex</button>
 
 
@@ -2944,12 +2970,12 @@ function toggleBibtexblanco_moldovan_2011_semantic(parameter) {
 }
 </script>
 </li>
-<li><div class="text-justify"><span id="blanco11:issues_negation">Eduardo Blanco and Dan Moldovan. 2011. Some Issues on Detecting Negation from Text. In <i>Proceedings of the 24th Florida Artificial Intelligence Research Society Conference (FLAIRS-24)</i>, pages 228–233, Palm Beach, Florida.</span></div>
-<button class="button" onclick="toggleBibtexblanco11_issues_negation()">bibtex</button>
+<li><div class="text-justify"><span id="blanco-moldovan-2011-unsupervised">Eduardo Blanco and Dan Moldovan. 2011. Unsupervised Learning of Semantic Relation Composition. In <i>Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies</i>, pages 1456–1465, Portland, Oregon, USA. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexblanco_moldovan_2011_unsupervised()">bibtex</button>
 
 
   
-      <a href="https://aaai.org/ocs/index.php/FLAIRS/FLAIRS11/paper/view/2629" target="_blank"><input class="button" type="button" value="link" /></a>
+      <a href="https://aclanthology.org/P11-1146" target="_blank"><input class="button" type="button" value="link" /></a>
   
 
 
@@ -2957,24 +2983,25 @@ function toggleBibtexblanco_moldovan_2011_semantic(parameter) {
 
 
 
-<div id="ablanco11:issues_negation" style="display: none;">
-<pre>@inproceedings{blanco11:issues_negation,
+<div id="ablanco-moldovan-2011-unsupervised" style="display: none;">
+<pre>@inproceedings{blanco-moldovan-2011-unsupervised,
+  title = {Unsupervised Learning of Semantic Relation Composition},
   author = {Blanco, Eduardo and Moldovan, Dan},
-  title = {{Some Issues on Detecting Negation from Text}},
-  booktitle = {Proceedings of the 24th Florida Artificial Intelligence Research Society Conference (FLAIRS-24)},
-  month = may,
+  booktitle = {Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies},
+  month = jun,
   year = {2011},
-  pages = {228--233},
-  address = {Palm Beach, Florida},
-  url = {https://aaai.org/ocs/index.php/FLAIRS/FLAIRS11/paper/view/2629},
-  month_numeric = {5}
+  address = {Portland, Oregon, USA},
+  publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/P11-1146},
+  pages = {1456--1465},
+  month_numeric = {6}
 }
 </pre>
 </div>
 
 <script>
-function toggleBibtexblanco11_issues_negation(parameter) {
-    var x= document.getElementById('ablanco11:issues_negation');
+function toggleBibtexblanco_moldovan_2011_unsupervised(parameter) {
+    var x= document.getElementById('ablanco-moldovan-2011-unsupervised');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -3014,6 +3041,45 @@ function toggleBibtexblanco11_issues_negation(parameter) {
 <script>
 function toggleBibtexblanco11_commonsense_properties(parameter) {
     var x= document.getElementById('ablanco11:commonsense_properties');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><div class="text-justify"><span id="blanco11:issues_negation">Eduardo Blanco and Dan Moldovan. 2011. Some Issues on Detecting Negation from Text. In <i>Proceedings of the 24th Florida Artificial Intelligence Research Society Conference (FLAIRS-24)</i>, pages 228–233, Palm Beach, Florida.</span></div>
+<button class="button" onclick="toggleBibtexblanco11_issues_negation()">bibtex</button>
+
+
+  
+      <a href="https://aaai.org/ocs/index.php/FLAIRS/FLAIRS11/paper/view/2629" target="_blank"><input class="button" type="button" value="link" /></a>
+  
+
+
+
+
+
+
+<div id="ablanco11:issues_negation" style="display: none;">
+<pre>@inproceedings{blanco11:issues_negation,
+  author = {Blanco, Eduardo and Moldovan, Dan},
+  title = {{Some Issues on Detecting Negation from Text}},
+  booktitle = {Proceedings of the 24th Florida Artificial Intelligence Research Society Conference (FLAIRS-24)},
+  month = may,
+  year = {2011},
+  pages = {228--233},
+  address = {Palm Beach, Florida},
+  url = {https://aaai.org/ocs/index.php/FLAIRS/FLAIRS11/paper/view/2629},
+  month_numeric = {5}
+}
+</pre>
+</div>
+
+<script>
+function toggleBibtexblanco11_issues_negation(parameter) {
+    var x= document.getElementById('ablanco11:issues_negation');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
