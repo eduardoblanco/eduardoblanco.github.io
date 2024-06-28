@@ -54,35 +54,37 @@
     <p>You can also look at my <a href="https://scholar.google.com/citations?user=AqGa3-MAAAAJ&amp;hl=en" target="_blank">Google Scholar profile</a>.</p>
 
 <h2 class="bibliography">2024</h2>
-<ol class="bibliography"><li><div class="text-justify"><span id="icwsm_xinchen">Xinchen Yu, Eduardo Blanco, and Lingzi Hong. 2024. Hate Cannot Drive out Hate: Forecasting Conversation Incivility following Replies to Hate Speech. <i>Proceedings of the International AAAI Conference on Web and Social Media (ICWSM)</i>. Accepted, To Appear.</span></div>
-<button class="button" onclick="toggleBibtexicwsm_xinchen()">bibtex</button>
+<ol class="bibliography"><li><div class="text-justify"><span id="mohammad_negation">MohammadHossein Rezaei and Eduardo Blanco. 2024. Paraphrasing in Affirmative Terms Improves Negation Understanding. In <i>Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)</i>, Bangkok, Thailand. Association for Computational Linguistics. Accepted, To Appear.</span></div>
+<button class="button" onclick="toggleBibtexmohammad_negation()">bibtex</button>
 
 
   
 
 
 
-    <a href="https://arxiv.org/abs/2312.04804" target="_blank"><input class="button_preprint" type="button" value="preprint" /></a>
+    <a href="https://arxiv.org/abs/2406.07492" target="_blank"><input class="button_preprint" type="button" value="preprint" /></a>
 
 
 
 
-<div id="aicwsm_xinchen" style="display: none;">
-<pre>@article{icwsm_xinchen,
-  title = {Hate Cannot Drive out Hate: Forecasting Conversation Incivility following Replies to Hate Speech},
-  preprint = {https://arxiv.org/abs/2312.04804},
-  journal = {Proceedings of the International AAAI Conference on Web and Social Media (ICWSM)},
-  author = {Yu, Xinchen and Blanco, Eduardo and Hong, Lingzi},
+<div id="amohammad_negation" style="display: none;">
+<pre>@inproceedings{mohammad_negation,
+  title = {Paraphrasing in Affirmative Terms Improves Negation Understanding},
+  author = {Rezaei, MohammadHossein and Blanco, Eduardo},
+  booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},
+  month = aug,
   year = {2024},
-  month = dec,
-  month_numeric = {12}
+  address = {Bangkok, Thailand},
+  publisher = {Association for Computational Linguistics},
+  preprint = {https://arxiv.org/abs/2406.07492},
+  month_numeric = {8}
 }
 </pre>
 </div>
 
 <script>
-function toggleBibtexicwsm_xinchen(parameter) {
-    var x= document.getElementById('aicwsm_xinchen');
+function toggleBibtexmohammad_negation(parameter) {
+    var x= document.getElementById('amohammad_negation');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -91,36 +93,40 @@ function toggleBibtexicwsm_xinchen(parameter) {
 }
 </script>
 </li>
-<li><div class="text-justify"><span id="nayem_naacl">Md Nayem Uddin, Enfa Rose George, Eduardo Blanco, and Steven Corman. 2024. Generating Uncontextualized and Contextualized Questions for Document-Level Event Argument Extraction. In <i>Proceedings of the 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2024)</i>, Mexico City, Mexico. Accepted, To Appear.</span></div>
-<button class="button" onclick="toggleBibtexnayem_naacl()">bibtex</button>
+<li><div class="text-justify"><span id="uddin-etal-2024-generating">Md Nayem Uddin, Enfa George, Eduardo Blanco, and Steven Corman. 2024. Generating Uncontextualized and Contextualized Questions for Document-Level Event Argument Extraction. In <i>Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)</i>, pages 5612–5627, Mexico City, Mexico. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexuddin_etal_2024_generating()">bibtex</button>
 
 
+  
+      <a href="https://aclanthology.org/2024.naacl-long.312" target="_blank"><input class="button" type="button" value="link" /></a>
   
 
 
 
-    <a href="https://arxiv.org/abs/2404.04770" target="_blank"><input class="button_preprint" type="button" value="preprint" /></a>
 
 
 
-
-<div id="anayem_naacl" style="display: none;">
-<pre>@inproceedings{nayem_naacl,
+<div id="auddin-etal-2024-generating" style="display: none;">
+<pre>@inproceedings{uddin-etal-2024-generating,
   title = {Generating Uncontextualized and Contextualized Questions for Document-Level Event Argument Extraction},
-  author = {Uddin, Md Nayem and George, Enfa Rose and Blanco, Eduardo and Corman, Steven},
-  booktitle = {Proceedings of the 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2024)},
+  author = {Uddin, Md Nayem and George, Enfa and Blanco, Eduardo and Corman, Steven},
+  editor = {Duh, Kevin and Gomez, Helena and Bethard, Steven},
+  booktitle = {Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)},
   month = jun,
   year = {2024},
   address = {Mexico City, Mexico},
-  preprint = {https://arxiv.org/abs/2404.04770},
+  publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2024.naacl-long.312},
+  pages = {5612--5627},
+  abstract = {This paper presents multiple question generation strategies for document-level event argument extraction. These strategies do not require human involvement and result in uncontextualized questions as well as contextualized questions grounded on the event and document of interest. Experimental results show that combining uncontextualized and contextualized questions is beneficial,especially when event triggers and arguments appear in different sentences. Our approach does not have corpus-specific components, in particular, the question generation strategies transfer across corpora. We also present a qualitative analysis of the most common errors made by our best model.},
   month_numeric = {6}
 }
 </pre>
 </div>
 
 <script>
-function toggleBibtexnayem_naacl(parameter) {
-    var x= document.getElementById('anayem_naacl');
+function toggleBibtexuddin_etal_2024_generating(parameter) {
+    var x= document.getElementById('auddin-etal-2024-generating');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -129,36 +135,40 @@ function toggleBibtexnayem_naacl(parameter) {
 }
 </script>
 </li>
-<li><div class="text-justify"><span id="zijie_naacl">Zijie Wang, Farzana Rashid, and Eduardo Blanco. 2024. Interpreting Answers to Yes-No Questions in Dialogues from Multiple Domains. In <i>Findings of the Association for Computational Linguistics: NAACL 2024</i>, Mexico City, Mexico. Accepted, To Appear.</span></div>
-<button class="button" onclick="toggleBibtexzijie_naacl()">bibtex</button>
+<li><div class="text-justify"><span id="wang-etal-2024-interpreting">Zijie Wang, Farzana Rashid, and Eduardo Blanco. 2024. Interpreting Answers to Yes-No Questions in Dialogues from Multiple Domains. In <i>Findings of the Association for Computational Linguistics: NAACL 2024</i>, pages 2111–2128, Mexico City, Mexico. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexwang_etal_2024_interpreting()">bibtex</button>
 
 
+  
+      <a href="https://aclanthology.org/2024.findings-naacl.136" target="_blank"><input class="button" type="button" value="link" /></a>
   
 
 
 
-    <a href="https://arxiv.org/abs/2404.16262" target="_blank"><input class="button_preprint" type="button" value="preprint" /></a>
 
 
 
-
-<div id="azijie_naacl" style="display: none;">
-<pre>@inproceedings{zijie_naacl,
+<div id="awang-etal-2024-interpreting" style="display: none;">
+<pre>@inproceedings{wang-etal-2024-interpreting,
   title = {Interpreting Answers to Yes-No Questions in Dialogues from Multiple Domains},
   author = {Wang, Zijie and Rashid, Farzana and Blanco, Eduardo},
+  editor = {Duh, Kevin and Gomez, Helena and Bethard, Steven},
   booktitle = {Findings of the Association for Computational Linguistics: NAACL 2024},
   month = jun,
   year = {2024},
   address = {Mexico City, Mexico},
-  preprint = {https://arxiv.org/abs/2404.16262},
+  publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2024.findings-naacl.136},
+  pages = {2111--2128},
+  abstract = {People often answer yes-no questions without explicitly saying yes, no, or similar polar key-words. Figuring out the meaning of indirectanswers is challenging, even for large language models. In this paper, we investigate this problem working with dialogues from multiple domains. We present new benchmarks in three diverse domains: movie scripts, tennis interviews, and airline customer service. We present an approach grounded on distant supervision and blended training to quickly adapt to a new dialogue domain. Experimental results show that our approach is never detrimental and yields F1 improvements as high as 11-34{\%}.},
   month_numeric = {6}
 }
 </pre>
 </div>
 
 <script>
-function toggleBibtexzijie_naacl(parameter) {
-    var x= document.getElementById('azijie_naacl');
+function toggleBibtexwang_etal_2024_interpreting(parameter) {
+    var x= document.getElementById('awang-etal-2024-interpreting');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -167,36 +177,40 @@ function toggleBibtexzijie_naacl(parameter) {
 }
 </script>
 </li>
-<li><div class="text-justify"><span id="javad_naacl">Javad Rafiei Asl, Prajwal Panzade, Eduardo Blanco, Daniel Takabi, and Zhipeng Cai. 2024. RobustSentEmbed: Robust Sentence Embeddings Using Adversarial Self-Supervised Contrastive Learning. In <i>Findings of the Association for Computational Linguistics: NAACL 2024</i>, Mexico City, Mexico. Accepted, To Appear.</span></div>
-<button class="button" onclick="toggleBibtexjavad_naacl()">bibtex</button>
+<li><div class="text-justify"><span id="rafiei-asl-etal-2024-robustsentembed">Javad Rafiei Asl, Prajwal Panzade, Eduardo Blanco, Daniel Takabi, and Zhipeng Cai. 2024. RobustSentEmbed: Robust Sentence Embeddings Using Adversarial Self-Supervised Contrastive Learning. In <i>Findings of the Association for Computational Linguistics: NAACL 2024</i>, pages 3795–3809, Mexico City, Mexico. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexrafiei_asl_etal_2024_robustsentembed()">bibtex</button>
 
 
+  
+      <a href="https://aclanthology.org/2024.findings-naacl.241" target="_blank"><input class="button" type="button" value="link" /></a>
   
 
 
 
-    <a href="https://arxiv.org/abs/2403.11082" target="_blank"><input class="button_preprint" type="button" value="preprint" /></a>
 
 
 
-
-<div id="ajavad_naacl" style="display: none;">
-<pre>@inproceedings{javad_naacl,
-  title = {RobustSentEmbed: Robust Sentence Embeddings Using Adversarial Self-Supervised Contrastive Learning},
-  author = {Asl, Javad Rafiei and Panzade, Prajwal and Blanco, Eduardo and Takabi, Daniel and Cai, Zhipeng},
+<div id="arafiei-asl-etal-2024-robustsentembed" style="display: none;">
+<pre>@inproceedings{rafiei-asl-etal-2024-robustsentembed,
+  title = {{R}obust{S}ent{E}mbed: Robust Sentence Embeddings Using Adversarial Self-Supervised Contrastive Learning},
+  author = {Rafiei Asl, Javad and Panzade, Prajwal and Blanco, Eduardo and Takabi, Daniel and Cai, Zhipeng},
+  editor = {Duh, Kevin and Gomez, Helena and Bethard, Steven},
   booktitle = {Findings of the Association for Computational Linguistics: NAACL 2024},
   month = jun,
   year = {2024},
   address = {Mexico City, Mexico},
-  preprint = {https://arxiv.org/abs/2403.11082},
+  publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2024.findings-naacl.241},
+  pages = {3795--3809},
+  abstract = {Pre-trained language models (PLMs) have consistently demonstrated outstanding performance across a diverse spectrum of natural language processing tasks. Nevertheless, despite their success with unseen data, current PLM-based representations often exhibit poor robustness in adversarial settings. In this paper, we introduce RobustSentEmbed, a self-supervised sentence embedding framework designed to improve both generalization and robustness in diverse text representation tasks and against a diverse set of adversarial attacks. Through the generation of high-risk adversarial perturbations and their utilization in a novel objective function, RobustSentEmbed adeptly learns high-quality and robust sentence embeddings. Our experiments confirm the superiority of RobustSentEmbed over state-of-the-art representations. Specifically, Our framework achieves a significant reduction in the success rate of various adversarial attacks, notably reducing the BERTAttack success rate by almost half (from 75.51{\%} to 38.81{\%}). The framework also yields improvements of 1.59{\%} and 0.23{\%} in semantic textual similarity tasks and various transfer tasks, respectively.},
   month_numeric = {6}
 }
 </pre>
 </div>
 
 <script>
-function toggleBibtexjavad_naacl(parameter) {
-    var x= document.getElementById('ajavad_naacl');
+function toggleBibtexrafiei_asl_etal_2024_robustsentembed(parameter) {
+    var x= document.getElementById('arafiei-asl-etal-2024-robustsentembed');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -205,10 +219,12 @@ function toggleBibtexjavad_naacl(parameter) {
 }
 </script>
 </li>
-<li><div class="text-justify"><span id="zhaomin_coling">Zhaomin Xiao, Eduardo Blanco, and Yan Huang. 2024. Analyzing Large Language Models’ Capability in Location Prediction. In <i>Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)</i>, Turin, Italy. Accepted, To Appear.</span></div>
-<button class="button" onclick="toggleBibtexzhaomin_coling()">bibtex</button>
+<li><div class="text-justify"><span id="xiao-etal-2024-analyzing-large">Zhaomin Xiao, Yan Huang, and Eduardo Blanco. 2024. Analyzing Large Language Models’ Capability in Location Prediction. In <i>Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)</i>, pages 951–958, Torino, Italia. ELRA and ICCL.</span></div>
+<button class="button" onclick="toggleBibtexxiao_etal_2024_analyzing_large()">bibtex</button>
 
 
+  
+      <a href="https://aclanthology.org/2024.lrec-main.85" target="_blank"><input class="button" type="button" value="link" /></a>
   
 
 
@@ -216,22 +232,27 @@ function toggleBibtexjavad_naacl(parameter) {
 
 
 
-<div id="azhaomin_coling" style="display: none;">
-<pre>@inproceedings{zhaomin_coling,
-  title = {Analyzing Large Language Models' Capability in Location Prediction},
-  author = {Xiao, Zhaomin and Blanco, Eduardo and Huang, Yan},
+<div id="axiao-etal-2024-analyzing-large" style="display: none;">
+<pre>@inproceedings{xiao-etal-2024-analyzing-large,
+  title = {Analyzing Large Language Models{'} Capability in Location Prediction},
+  author = {Xiao, Zhaomin and Huang, Yan and Blanco, Eduardo},
+  editor = {Calzolari, Nicoletta and Kan, Min-Yen and Hoste, Veronique and Lenci, Alessandro and Sakti, Sakriani and Xue, Nianwen},
   booktitle = {Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)},
   month = may,
   year = {2024},
-  address = {Turin, Italy},
+  address = {Torino, Italia},
+  publisher = {ELRA and ICCL},
+  url = {https://aclanthology.org/2024.lrec-main.85},
+  pages = {951--958},
+  abstract = {In this paper, we investigate and evaluate large language models{'} capability in location prediction. We present experimental results with four models{---}FLAN-T5, FLAN-UL2, FLAN-Alpaca, and ChatGPT{---}in various instruction finetuning and exemplar settings. We analyze whether taking into account the context{---}tweets published before and after the tweet mentioning a location{---}is beneficial. Additionally, we conduct an ablation study to explore whether instruction modification is beneficial. Lastly, our qualitative analysis sheds light on the errors made by the best-performing model.},
   month_numeric = {5}
 }
 </pre>
 </div>
 
 <script>
-function toggleBibtexzhaomin_coling(parameter) {
-    var x= document.getElementById('azhaomin_coling');
+function toggleBibtexxiao_etal_2024_analyzing_large(parameter) {
+    var x= document.getElementById('axiao-etal-2024-analyzing-large');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -240,36 +261,80 @@ function toggleBibtexzhaomin_coling(parameter) {
 }
 </script>
 </li>
-<li><div class="text-justify"><span id="nayem_coling">Md Nayem Uddin, Enfa Rose George, Eduardo Blanco, and Steven R. Corman. 2024. Asking and Answering Questions to Extract Event-Argument Structures. In <i>Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)</i>, Turin, Italy. Accepted, To Appear.</span></div>
-<button class="button" onclick="toggleBibtexnayem_coling()">bibtex</button>
+<li><div class="text-justify"><span id="uddin-etal-2024-asking-answering">Md Nayem Uddin, Enfa Rose George, Eduardo Blanco, and Steven R. Corman. 2024. Asking and Answering Questions to Extract Event-Argument Structures. In <i>Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)</i>, pages 1609–1626, Torino, Italia. ELRA and ICCL.</span></div>
+<button class="button" onclick="toggleBibtexuddin_etal_2024_asking_answering()">bibtex</button>
 
 
+  
+      <a href="https://aclanthology.org/2024.lrec-main.142" target="_blank"><input class="button" type="button" value="link" /></a>
   
 
 
 
-    <a href="https://arxiv.org/abs/2404.16413" target="_blank"><input class="button_preprint" type="button" value="preprint" /></a>
 
 
 
-
-<div id="anayem_coling" style="display: none;">
-<pre>@inproceedings{nayem_coling,
+<div id="auddin-etal-2024-asking-answering" style="display: none;">
+<pre>@inproceedings{uddin-etal-2024-asking-answering,
   title = {Asking and Answering Questions to Extract Event-Argument Structures},
   author = {Uddin, Md Nayem and George, Enfa Rose and Blanco, Eduardo and Corman, Steven R.},
+  editor = {Calzolari, Nicoletta and Kan, Min-Yen and Hoste, Veronique and Lenci, Alessandro and Sakti, Sakriani and Xue, Nianwen},
   booktitle = {Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)},
   month = may,
   year = {2024},
-  address = {Turin, Italy},
-  preprint = {https://arxiv.org/abs/2404.16413},
+  address = {Torino, Italia},
+  publisher = {ELRA and ICCL},
+  url = {https://aclanthology.org/2024.lrec-main.142},
+  pages = {1609--1626},
+  abstract = {This paper presents a question-answering approach to extract document-level event-argument structures. We automatically ask and answer questions for each argument type an event may have. Questions are generated using manually defined templates and generative transformers. Template-based questions are generated using predefined role-specific wh-words and event triggers from the context document. Transformer-based questions are generated using large language models trained to formulate questions based on a passage and the expected answer. Additionally, we develop novel data augmentation strategies specialized in inter-sentential event-argument relations. We use a simple span-swapping technique, coreference resolution, and large language models to augment the training instances. Our approach enables transfer learning without any corpora-specific modifications and yields competitive results with the RAMS dataset. It outperforms previous work, and it is especially beneficial to extract arguments that appear in different sentences than the event trigger. We also present detailed quantitative and qualitative analyses shedding light on the most common errors made by our best model.},
   month_numeric = {5}
 }
 </pre>
 </div>
 
 <script>
-function toggleBibtexnayem_coling(parameter) {
-    var x= document.getElementById('anayem_coling');
+function toggleBibtexuddin_etal_2024_asking_answering(parameter) {
+    var x= document.getElementById('auddin-etal-2024-asking-answering');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><div class="text-justify"><span id="Yu_Blanco_Hong_2024">Xinchen Yu, Eduardo Blanco, and Lingzi Hong. 2024. Hate Cannot Drive Out Hate: Forecasting Conversation Incivility following Replies to Hate Speech. <i>Proceedings of the International AAAI Conference on Web and Social Media</i>, 18(1):1740–1752.</span></div>
+<button class="button" onclick="toggleBibtexYu_Blanco_Hong_2024()">bibtex</button>
+
+
+    <a href="http://doi.org/10.1609/icwsm.v18i1.31422" target="_blank"><input class="button" type="button" value="link" /></a>
+
+
+
+
+
+
+<div id="aYu_Blanco_Hong_2024" style="display: none;">
+<pre>@article{Yu_Blanco_Hong_2024,
+  title = {Hate Cannot Drive Out Hate: Forecasting Conversation Incivility following Replies to Hate Speech},
+  volume = {18},
+  url = {https://ojs.aaai.org/index.php/ICWSM/article/view/31422},
+  doi = {10.1609/icwsm.v18i1.31422},
+  abstractnote = {User-generated counter hate speech is a promising means to combat hate speech, but questions about whether it can stop incivility in follow-up conversations linger. We argue that effective counter hate speech stops incivility from emerging in follow-up conversations—counter hate that elicits more incivility is counterproductive. This study introduces the task of predicting the incivility of conversations following replies to hate speech. We first propose a metric to measure conversation incivility based on the number of civil and uncivil comments as well as the unique authors involved in the discourse. Our metric approximates human judgments more accurately than previous metrics. We then use the metric to evaluate the outcomes of replies to hate speech. A linguistic analysis uncovers the differences in the language of replies that elicit follow-up conversations with high and low incivility. Experimental results show that forecasting incivility is challenging. We close with a qualitative analysis shedding light into the most common errors made by the best model.},
+  number = {1},
+  journal = {Proceedings of the International AAAI Conference on Web and Social Media},
+  author = {Yu, Xinchen and Blanco, Eduardo and Hong, Lingzi},
+  year = {2024},
+  month = may,
+  pages = {1740-1752},
+  month_numeric = {5}
+}
+</pre>
+</div>
+
+<script>
+function toggleBibtexYu_Blanco_Hong_2024(parameter) {
+    var x= document.getElementById('aYu_Blanco_Hong_2024');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -321,39 +386,39 @@ function toggleBibtex10_1093_nargab_lqae011(parameter) {
 </script>
 </li></ol>
 <h2 class="bibliography">2023</h2>
-<ol class="bibliography"><li><div class="text-justify"><span id="cooper-etal-2023-hiding">Portia Cooper, Mihai Surdeanu, and Eduardo Blanco. 2023. Hiding in Plain Sight: Tweets with Hate Speech Masked by Homoglyphs. In <i>Findings of the Association for Computational Linguistics: EMNLP 2023</i>, pages 2922–2929, Singapore. Association for Computational Linguistics.</span></div>
-<button class="button" onclick="toggleBibtexcooper_etal_2023_hiding()">bibtex</button>
+<ol class="bibliography"><li><div class="text-justify"><span id="mathur-etal-2023-interpreting">Shivam Mathur, Keun Park, Dhivya Chinnappa, Saketh Kotamraju, and Eduardo Blanco. 2023. Interpreting Answers to Yes-No Questions in User-Generated Content. In <i>Findings of the Association for Computational Linguistics: EMNLP 2023</i>, pages 14137–14161, Singapore. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexmathur_etal_2023_interpreting()">bibtex</button>
 
 
-    <a href="http://doi.org/10.18653/v1/2023.findings-emnlp.192" target="_blank"><input class="button" type="button" value="link" /></a>
-
-
-
+    <a href="http://doi.org/10.18653/v1/2023.findings-emnlp.942" target="_blank"><input class="button" type="button" value="link" /></a>
 
 
 
-<div id="acooper-etal-2023-hiding" style="display: none;">
-<pre>@inproceedings{cooper-etal-2023-hiding,
-  title = {Hiding in Plain Sight: Tweets with Hate Speech Masked by Homoglyphs},
-  author = {Cooper, Portia and Surdeanu, Mihai and Blanco, Eduardo},
+
+
+
+<div id="amathur-etal-2023-interpreting" style="display: none;">
+<pre>@inproceedings{mathur-etal-2023-interpreting,
+  title = {Interpreting Answers to Yes-No Questions in User-Generated Content},
+  author = {Mathur, Shivam and Park, Keun and Chinnappa, Dhivya and Kotamraju, Saketh and Blanco, Eduardo},
   editor = {Bouamor, Houda and Pino, Juan and Bali, Kalika},
   booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2023},
   month = dec,
   year = {2023},
   address = {Singapore},
   publisher = {Association for Computational Linguistics},
-  url = {https://aclanthology.org/2023.findings-emnlp.192},
-  doi = {10.18653/v1/2023.findings-emnlp.192},
-  pages = {2922--2929},
-  abstract = {To avoid detection by current NLP monitoring applications, progenitors of hate speech often replace one or more letters in offensive words with homoglyphs, visually similar Unicode characters. Harvesting real-world hate speech containing homoglyphs is challenging due to the vast replacement possibilities. We developed a character substitution scraping method and assembled the Offensive Tweets with Homoglyphs (OTH) Dataset (N=90,788) with more than 1.5 million occurrences of 1,281 non-Latin characters (emojis excluded). In an annotated sample (n=700), 40.14{\%} of the tweets were found to contain hate speech. We assessed the performance of seven transformer-based hate speech detection models and found that they performed poorly in a zero-shot setting (F1 scores between 0.04 and 0.52) but normalizing the data dramatically improved detection (F1 scores between 0.59 and 0.71). Training the models using the annotated data further boosted performance (highest micro-averaged F1 score=0.88, using five-fold cross validation). This study indicates that a dataset containing homoglyphs known and unknown to the scraping script can be collected, and that neural models can be trained to recognize camouflaged real-world hate speech.},
+  url = {https://aclanthology.org/2023.findings-emnlp.942},
+  doi = {10.18653/v1/2023.findings-emnlp.942},
+  pages = {14137--14161},
+  abstract = {Interpreting answers to yes-no questions in social media is difficult. Yes and no keywords are uncommon, and the few answers that include them are rarely to be interpreted what the keywords suggest. In this paper, we present a new corpus of 4,442 yes-no question-answer pairs from Twitter. We discuss linguistic characteristics of answers whose interpretation is yes or no, as well as answers whose interpretation is unknown. We show that large language models are far from solving this problem, even after fine-tuning and blending other corpora for the same problem but outside social media.},
   month_numeric = {12}
 }
 </pre>
 </div>
 
 <script>
-function toggleBibtexcooper_etal_2023_hiding(parameter) {
-    var x= document.getElementById('acooper-etal-2023-hiding');
+function toggleBibtexmathur_etal_2023_interpreting(parameter) {
+    var x= document.getElementById('amathur-etal-2023-interpreting');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -485,6 +550,47 @@ function toggleBibtexwang_etal_2023_interpreting(parameter) {
 }
 </script>
 </li>
+<li><div class="text-justify"><span id="cooper-etal-2023-hiding">Portia Cooper, Mihai Surdeanu, and Eduardo Blanco. 2023. Hiding in Plain Sight: Tweets with Hate Speech Masked by Homoglyphs. In <i>Findings of the Association for Computational Linguistics: EMNLP 2023</i>, pages 2922–2929, Singapore. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexcooper_etal_2023_hiding()">bibtex</button>
+
+
+    <a href="http://doi.org/10.18653/v1/2023.findings-emnlp.192" target="_blank"><input class="button" type="button" value="link" /></a>
+
+
+
+
+
+
+<div id="acooper-etal-2023-hiding" style="display: none;">
+<pre>@inproceedings{cooper-etal-2023-hiding,
+  title = {Hiding in Plain Sight: Tweets with Hate Speech Masked by Homoglyphs},
+  author = {Cooper, Portia and Surdeanu, Mihai and Blanco, Eduardo},
+  editor = {Bouamor, Houda and Pino, Juan and Bali, Kalika},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2023},
+  month = dec,
+  year = {2023},
+  address = {Singapore},
+  publisher = {Association for Computational Linguistics},
+  url = {https://aclanthology.org/2023.findings-emnlp.192},
+  doi = {10.18653/v1/2023.findings-emnlp.192},
+  pages = {2922--2929},
+  abstract = {To avoid detection by current NLP monitoring applications, progenitors of hate speech often replace one or more letters in offensive words with homoglyphs, visually similar Unicode characters. Harvesting real-world hate speech containing homoglyphs is challenging due to the vast replacement possibilities. We developed a character substitution scraping method and assembled the Offensive Tweets with Homoglyphs (OTH) Dataset (N=90,788) with more than 1.5 million occurrences of 1,281 non-Latin characters (emojis excluded). In an annotated sample (n=700), 40.14{\%} of the tweets were found to contain hate speech. We assessed the performance of seven transformer-based hate speech detection models and found that they performed poorly in a zero-shot setting (F1 scores between 0.04 and 0.52) but normalizing the data dramatically improved detection (F1 scores between 0.59 and 0.71). Training the models using the annotated data further boosted performance (highest micro-averaged F1 score=0.88, using five-fold cross validation). This study indicates that a dataset containing homoglyphs known and unknown to the scraping script can be collected, and that neural models can be trained to recognize camouflaged real-world hate speech.},
+  month_numeric = {12}
+}
+</pre>
+</div>
+
+<script>
+function toggleBibtexcooper_etal_2023_hiding(parameter) {
+    var x= document.getElementById('acooper-etal-2023-hiding');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
 <li><div class="text-justify"><span id="asl-etal-2023-robustembed">Javad Asl, Eduardo Blanco, and Daniel Takabi. 2023. RobustEmbed: Robust Sentence Embeddings Using Self-Supervised Contrastive Pre-Training. In <i>Findings of the Association for Computational Linguistics: EMNLP 2023</i>, pages 4587–4603, Singapore. Association for Computational Linguistics.</span></div>
 <button class="button" onclick="toggleBibtexasl_etal_2023_robustembed()">bibtex</button>
 
@@ -518,47 +624,6 @@ function toggleBibtexwang_etal_2023_interpreting(parameter) {
 <script>
 function toggleBibtexasl_etal_2023_robustembed(parameter) {
     var x= document.getElementById('aasl-etal-2023-robustembed');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
-</li>
-<li><div class="text-justify"><span id="mathur-etal-2023-interpreting">Shivam Mathur, Keun Park, Dhivya Chinnappa, Saketh Kotamraju, and Eduardo Blanco. 2023. Interpreting Answers to Yes-No Questions in User-Generated Content. In <i>Findings of the Association for Computational Linguistics: EMNLP 2023</i>, pages 14137–14161, Singapore. Association for Computational Linguistics.</span></div>
-<button class="button" onclick="toggleBibtexmathur_etal_2023_interpreting()">bibtex</button>
-
-
-    <a href="http://doi.org/10.18653/v1/2023.findings-emnlp.942" target="_blank"><input class="button" type="button" value="link" /></a>
-
-
-
-
-
-
-<div id="amathur-etal-2023-interpreting" style="display: none;">
-<pre>@inproceedings{mathur-etal-2023-interpreting,
-  title = {Interpreting Answers to Yes-No Questions in User-Generated Content},
-  author = {Mathur, Shivam and Park, Keun and Chinnappa, Dhivya and Kotamraju, Saketh and Blanco, Eduardo},
-  editor = {Bouamor, Houda and Pino, Juan and Bali, Kalika},
-  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2023},
-  month = dec,
-  year = {2023},
-  address = {Singapore},
-  publisher = {Association for Computational Linguistics},
-  url = {https://aclanthology.org/2023.findings-emnlp.942},
-  doi = {10.18653/v1/2023.findings-emnlp.942},
-  pages = {14137--14161},
-  abstract = {Interpreting answers to yes-no questions in social media is difficult. Yes and no keywords are uncommon, and the few answers that include them are rarely to be interpreted what the keywords suggest. In this paper, we present a new corpus of 4,442 yes-no question-answer pairs from Twitter. We discuss linguistic characteristics of answers whose interpretation is yes or no, as well as answers whose interpretation is unknown. We show that large language models are far from solving this problem, even after fine-tuning and blending other corpora for the same problem but outside social media.},
-  month_numeric = {12}
-}
-</pre>
-</div>
-
-<script>
-function toggleBibtexmathur_etal_2023_interpreting(parameter) {
-    var x= document.getElementById('amathur-etal-2023-interpreting');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
