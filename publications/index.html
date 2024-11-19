@@ -262,37 +262,39 @@ function toggleBibtex10_1093_bioinformatics_btae643(parameter) {
 }
 </script>
 </li>
-<li><div class="text-justify"><span id="mohammad_negation">MohammadHossein Rezaei and Eduardo Blanco. 2024. Paraphrasing in Affirmative Terms Improves Negation Understanding. In <i>Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)</i>, Bangkok, Thailand. Association for Computational Linguistics. Accepted, To Appear.</span></div>
-<button class="button" onclick="toggleBibtexmohammad_negation()">bibtex</button>
+<li><div class="text-justify"><span id="rezaei-blanco-2024-paraphrasing">MohammadHossein Rezaei and Eduardo Blanco. 2024. Paraphrasing in Affirmative Terms Improves Negation Understanding. In <i>Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)</i>, pages 602–615, Bangkok, Thailand. Association for Computational Linguistics.</span></div>
+<button class="button" onclick="toggleBibtexrezaei_blanco_2024_paraphrasing()">bibtex</button>
 
 
-  
-
-
-
-    <a href="https://arxiv.org/abs/2406.07492" target="_blank"><input class="button_preprint" type="button" value="preprint" /></a>
+    <a href="http://doi.org/10.18653/v1/2024.acl-short.55" target="_blank"><input class="button" type="button" value="link" /></a>
 
 
 
 
-<div id="amohammad_negation" style="display: none;">
-<pre>@inproceedings{mohammad_negation,
+
+
+<div id="arezaei-blanco-2024-paraphrasing" style="display: none;">
+<pre>@inproceedings{rezaei-blanco-2024-paraphrasing,
   title = {Paraphrasing in Affirmative Terms Improves Negation Understanding},
   author = {Rezaei, MohammadHossein and Blanco, Eduardo},
+  editor = {Ku, Lun-Wei and Martins, Andre and Srikumar, Vivek},
   booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},
   month = aug,
   year = {2024},
   address = {Bangkok, Thailand},
   publisher = {Association for Computational Linguistics},
-  preprint = {https://arxiv.org/abs/2406.07492},
+  url = {https://aclanthology.org/2024.acl-short.55},
+  doi = {10.18653/v1/2024.acl-short.55},
+  pages = {602--615},
+  abstract = {Negation is a common linguistic phenomenon. Yet language models face challenges with negation in many natural language understanding tasks such as question answering and natural language inference. In this paper, we experiment with seamless strategies that incorporate affirmative interpretations (i.e., paraphrases without negation) to make models more robust against negation. Crucially, our affirmative interpretations are obtained automatically. We show improvements with CondaQA, a large corpus requiring reasoning with negation, and five natural language understanding tasks.},
   month_numeric = {8}
 }
 </pre>
 </div>
 
 <script>
-function toggleBibtexmohammad_negation(parameter) {
-    var x= document.getElementById('amohammad_negation');
+function toggleBibtexrezaei_blanco_2024_paraphrasing(parameter) {
+    var x= document.getElementById('arezaei-blanco-2024-paraphrasing');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
